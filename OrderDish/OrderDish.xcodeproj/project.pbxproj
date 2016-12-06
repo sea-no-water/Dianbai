@@ -1,0 +1,1887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042995F61D4152DB00854C84 /* SongDanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042995F41D4152DB00854C84 /* SongDanVC.m */; };
+		042995F71D4152DB00854C84 /* SongDanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042995F51D4152DB00854C84 /* SongDanVC.xib */; };
+		042995FC1D4166AA00854C84 /* ZuoWeiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 042995FA1D4166AA00854C84 /* ZuoWeiVC.m */; };
+		042995FD1D4166AA00854C84 /* ZuoWeiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042995FB1D4166AA00854C84 /* ZuoWeiVC.xib */; };
+		044F94351D3AA5F800E25F3A /* LanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F94331D3AA5F800E25F3A /* LanguageViewController.m */; };
+		044F94361D3AA5F800E25F3A /* LanguageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F94341D3AA5F800E25F3A /* LanguageViewController.xib */; };
+		044F943B1D3AA95400E25F3A /* orderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F94391D3AA95400E25F3A /* orderViewController.m */; };
+		044F943C1D3AA95400E25F3A /* orderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F943A1D3AA95400E25F3A /* orderViewController.xib */; };
+		044F94471D3AC50D00E25F3A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F94451D3AC50D00E25F3A /* TableViewCell.m */; };
+		044F94481D3AC50D00E25F3A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F94461D3AC50D00E25F3A /* TableViewCell.xib */; };
+		04549C111D417E7C0047872C /* LiShiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C0F1D417E7C0047872C /* LiShiVC.m */; };
+		04549C121D417E7C0047872C /* LiShiVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04549C101D417E7C0047872C /* LiShiVC.xib */; };
+		04549C151D4181210047872C /* recordTableDatebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C141D4181210047872C /* recordTableDatebase.m */; };
+		04549C181D4181420047872C /* room_recordTableDatebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C171D4181420047872C /* room_recordTableDatebase.m */; };
+		04549C1B1D4181570047872C /* room_recordTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C1A1D4181570047872C /* room_recordTable.m */; };
+		04549C1E1D41816C0047872C /* recordTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C1D1D41816C0047872C /* recordTable.m */; };
+		04549C231D41A4DA0047872C /* LSVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C211D41A4DA0047872C /* LSVCCell.m */; };
+		04549C241D41A4DA0047872C /* LSVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04549C221D41A4DA0047872C /* LSVCCell.xib */; };
+		04549C321D41DAF60047872C /* ChaXunVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04549C301D41DAF60047872C /* ChaXunVC.m */; };
+		04549C331D41DAF60047872C /* ChaXunVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04549C311D41DAF60047872C /* ChaXunVC.xib */; };
+		047892511D3A9DCB00376101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047892501D3A9DCB00376101 /* Foundation.framework */; };
+		047892531D3A9DCB00376101 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047892521D3A9DCB00376101 /* CoreGraphics.framework */; };
+		047892551D3A9DCB00376101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047892541D3A9DCB00376101 /* UIKit.framework */; };
+		0478925B1D3A9DCB00376101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047892591D3A9DCB00376101 /* InfoPlist.strings */; };
+		0478925D1D3A9DCB00376101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478925C1D3A9DCB00376101 /* main.m */; };
+		047892611D3A9DCB00376101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047892601D3A9DCB00376101 /* AppDelegate.m */; };
+		047892641D3A9DCB00376101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047892621D3A9DCB00376101 /* Main.storyboard */; };
+		047892671D3A9DCB00376101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047892661D3A9DCB00376101 /* ViewController.m */; };
+		047892691D3A9DCB00376101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047892681D3A9DCB00376101 /* Images.xcassets */; };
+		047892701D3A9DCB00376101 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478926F1D3A9DCB00376101 /* XCTest.framework */; };
+		047892711D3A9DCB00376101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047892501D3A9DCB00376101 /* Foundation.framework */; };
+		047892721D3A9DCB00376101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047892541D3A9DCB00376101 /* UIKit.framework */; };
+		0478927A1D3A9DCB00376101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047892781D3A9DCB00376101 /* InfoPlist.strings */; };
+		0478927C1D3A9DCB00376101 /* OrderDishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478927B1D3A9DCB00376101 /* OrderDishTests.m */; };
+		0478938C1D3A9E1C00376101 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 047892851D3A9E1C00376101 /* database.sqlite */; };
+		0478938D1D3A9E1C00376101 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892871D3A9E1C00376101 /* 01.png */; };
+		0478938E1D3A9E1C00376101 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892881D3A9E1C00376101 /* 02.png */; };
+		0478938F1D3A9E1C00376101 /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892891D3A9E1C00376101 /* bg3.png */; };
+		047893901D3A9E1C00376101 /* bgp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478928A1D3A9E1C00376101 /* bgp1.jpg */; };
+		047893911D3A9E1C00376101 /* bgp3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478928B1D3A9E1C00376101 /* bgp3.png */; };
+		047893921D3A9E1C00376101 /* bgp31.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478928C1D3A9E1C00376101 /* bgp31.png */; };
+		047893931D3A9E1C00376101 /* bgp33.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478928D1D3A9E1C00376101 /* bgp33.png */; };
+		047893941D3A9E1C00376101 /* bgp4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478928E1D3A9E1C00376101 /* bgp4.png */; };
+		047893951D3A9E1C00376101 /* bgp41.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478928F1D3A9E1C00376101 /* bgp41.png */; };
+		047893961D3A9E1C00376101 /* bgp5.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892901D3A9E1C00376101 /* bgp5.png */; };
+		047893971D3A9E1C00376101 /* bgp6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892911D3A9E1C00376101 /* bgp6.jpg */; };
+		047893981D3A9E1C00376101 /* bgp6.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892921D3A9E1C00376101 /* bgp6.png */; };
+		047893991D3A9E1C00376101 /* bgp8.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892931D3A9E1C00376101 /* bgp8.png */; };
+		0478939A1D3A9E1C00376101 /* bgp81.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892941D3A9E1C00376101 /* bgp81.png */; };
+		0478939B1D3A9E1C00376101 /* bgpp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892951D3A9E1C00376101 /* bgpp2.jpg */; };
+		0478939C1D3A9E1C00376101 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892961D3A9E1C00376101 /* blue.png */; };
+		0478939D1D3A9E1C00376101 /* btnBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892971D3A9E1C00376101 /* btnBG.png */; };
+		0478939E1D3A9E1C00376101 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892991D3A9E1C00376101 /* 1.jpg */; };
+		0478939F1D3A9E1C00376101 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929A1D3A9E1C00376101 /* 2.jpg */; };
+		047893A01D3A9E1C00376101 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929B1D3A9E1C00376101 /* 3.jpg */; };
+		047893A11D3A9E1C00376101 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929C1D3A9E1C00376101 /* 4.jpg */; };
+		047893A21D3A9E1C00376101 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929D1D3A9E1C00376101 /* 5.jpg */; };
+		047893A31D3A9E1C00376101 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929E1D3A9E1C00376101 /* 6.jpg */; };
+		047893A41D3A9E1C00376101 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478929F1D3A9E1C00376101 /* 7.jpg */; };
+		047893A51D3A9E1C00376101 /* chinese.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A01D3A9E1C00376101 /* chinese.png */; };
+		047893A61D3A9E1C00376101 /* cwxz.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A11D3A9E1C00376101 /* cwxz.png */; };
+		047893A71D3A9E1C00376101 /* dlbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A21D3A9E1C00376101 /* dlbg.png */; };
+		047893A81D3A9E1C00376101 /* english.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A31D3A9E1C00376101 /* english.png */; };
+		047893A91D3A9E1C00376101 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A41D3A9E1C00376101 /* exit.png */; };
+		047893AA1D3A9E1C00376101 /* guangyun.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A51D3A9E1C00376101 /* guangyun.png */; };
+		047893AB1D3A9E1C00376101 /* hchinese.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A61D3A9E1C00376101 /* hchinese.png */; };
+		047893AC1D3A9E1C00376101 /* henglish.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A71D3A9E1C00376101 /* henglish.png */; };
+		047893AD1D3A9E1C00376101 /* hrbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A81D3A9E1C00376101 /* hrbg.png */; };
+		047893AE1D3A9E1C00376101 /* line31.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892A91D3A9E1C00376101 /* line31.png */; };
+		047893AF1D3A9E1C00376101 /* line32.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892AA1D3A9E1C00376101 /* line32.png */; };
+		047893B01D3A9E1C00376101 /* line33.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892AB1D3A9E1C00376101 /* line33.png */; };
+		047893B11D3A9E1C00376101 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892AC1D3A9E1C00376101 /* logo.png */; };
+		047893B21D3A9E1C00376101 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892AD1D3A9E1C00376101 /* main.png */; };
+		047893B31D3A9E1C00376101 /* 2icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892AF1D3A9E1C00376101 /* 2icon.png */; };
+		047893B41D3A9E1C00376101 /* 3icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B01D3A9E1C00376101 /* 3icon.png */; };
+		047893B51D3A9E1C00376101 /* 4icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B11D3A9E1C00376101 /* 4icon.png */; };
+		047893B61D3A9E1C00376101 /* 5icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B21D3A9E1C00376101 /* 5icon.png */; };
+		047893B71D3A9E1C00376101 /* 6icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B31D3A9E1C00376101 /* 6icon.png */; };
+		047893B81D3A9E1C00376101 /* 7icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B41D3A9E1C00376101 /* 7icon.png */; };
+		047893B91D3A9E1C00376101 /* addbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B51D3A9E1C00376101 /* addbtn.png */; };
+		047893BA1D3A9E1C00376101 /* bzbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B61D3A9E1C00376101 /* bzbtn.png */; };
+		047893BB1D3A9E1C00376101 /* 1_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B71D3A9E1C00376101 /* 1_n.png */; };
+		047893BC1D3A9E1C00376101 /* cude.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B81D3A9E1C00376101 /* cude.png */; };
+		047893BD1D3A9E1C00376101 /* dcbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892B91D3A9E1C00376101 /* dcbtn.png */; };
+		047893BE1D3A9E1C00376101 /* 1_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BA1D3A9E1C00376101 /* 1_s.png */; };
+		047893BF1D3A9E1C00376101 /* 6_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BB1D3A9E1C00376101 /* 6_s.png */; };
+		047893C01D3A9E1C00376101 /* 2_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BC1D3A9E1C00376101 /* 2_s.png */; };
+		047893C11D3A9E1C00376101 /* 3_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BD1D3A9E1C00376101 /* 3_s.png */; };
+		047893C21D3A9E1C00376101 /* 4_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BE1D3A9E1C00376101 /* 4_s.png */; };
+		047893C31D3A9E1C00376101 /* 0_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892BF1D3A9E1C00376101 /* 0_s.png */; };
+		047893C41D3A9E1C00376101 /* hzong.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C01D3A9E1C00376101 /* hzong.png */; };
+		047893C51D3A9E1C00376101 /* 5_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C11D3A9E1C00376101 /* 5_s.png */; };
+		047893C61D3A9E1C00376101 /* 6_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C21D3A9E1C00376101 /* 6_n.png */; };
+		047893C71D3A9E1C00376101 /* 2_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C31D3A9E1C00376101 /* 2_n.png */; };
+		047893C81D3A9E1C00376101 /* qcbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C41D3A9E1C00376101 /* qcbtn.png */; };
+		047893C91D3A9E1C00376101 /* 3_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C51D3A9E1C00376101 /* 3_n.png */; };
+		047893CA1D3A9E1C00376101 /* reducebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C61D3A9E1C00376101 /* reducebtn.png */; };
+		047893CB1D3A9E1C00376101 /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C71D3A9E1C00376101 /* return.png */; };
+		047893CC1D3A9E1C00376101 /* sd1.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C81D3A9E1C00376101 /* sd1.png */; };
+		047893CD1D3A9E1C00376101 /* sd2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892C91D3A9E1C00376101 /* sd2.png */; };
+		047893CE1D3A9E1C00376101 /* sd3.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CA1D3A9E1C00376101 /* sd3.png */; };
+		047893CF1D3A9E1C00376101 /* sdbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CB1D3A9E1C00376101 /* sdbtn.png */; };
+		047893D01D3A9E1C00376101 /* 4_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CC1D3A9E1C00376101 /* 4_n.png */; };
+		047893D11D3A9E1C00376101 /* xqbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CD1D3A9E1C00376101 /* xqbtn.png */; };
+		047893D21D3A9E1C00376101 /* ysdicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CE1D3A9E1C00376101 /* ysdicon.png */; };
+		047893D31D3A9E1C00376101 /* yszicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892CF1D3A9E1C00376101 /* yszicon.png */; };
+		047893D41D3A9E1C00376101 /* yticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D01D3A9E1C00376101 /* yticon.png */; };
+		047893D51D3A9E1C00376101 /* 0_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D11D3A9E1C00376101 /* 0_n.png */; };
+		047893D61D3A9E1C00376101 /* 5_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D21D3A9E1C00376101 /* 5_n.png */; };
+		047893D71D3A9E1C00376101 /* myorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D31D3A9E1C00376101 /* myorder.png */; };
+		047893D81D3A9E1C00376101 /* p1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892D41D3A9E1C00376101 /* p1.jpg */; };
+		047893D91D3A9E1C00376101 /* p2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892D51D3A9E1C00376101 /* p2.jpg */; };
+		047893DA1D3A9E1C00376101 /* p61.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D61D3A9E1C00376101 /* p61.png */; };
+		047893DB1D3A9E1C00376101 /* pg80.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892D71D3A9E1C00376101 /* pg80.jpg */; };
+		047893DC1D3A9E1C00376101 /* remark.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892D81D3A9E1C00376101 /* remark.png */; };
+		047893DD1D3A9E1C00376101 /* res.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892D91D3A9E1C00376101 /* res.jpg */; };
+		047893DE1D3A9E1C00376101 /* sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892DA1D3A9E1C00376101 /* sanjiao.png */; };
+		047893DF1D3A9E1C00376101 /* sdbtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892DB1D3A9E1C00376101 /* sdbtn2.png */; };
+		047893E01D3A9E1C00376101 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892DD1D3A9E1C00376101 /* 1.png */; };
+		047893E11D3A9E1C00376101 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892DE1D3A9E1C00376101 /* 2.png */; };
+		047893E21D3A9E1C00376101 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892DF1D3A9E1C00376101 /* 3.png */; };
+		047893E31D3A9E1C00376101 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E01D3A9E1C00376101 /* 4.png */; };
+		047893E41D3A9E1C00376101 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E11D3A9E1C00376101 /* 5.png */; };
+		047893E51D3A9E1C00376101 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E21D3A9E1C00376101 /* 6.png */; };
+		047893E61D3A9E1C00376101 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E31D3A9E1C00376101 /* 7.png */; };
+		047893E71D3A9E1C00376101 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E41D3A9E1C00376101 /* 8.png */; };
+		047893E81D3A9E1C00376101 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E51D3A9E1C00376101 /* 9.png */; };
+		047893E91D3A9E1C00376101 /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E61D3A9E1C00376101 /* tap.png */; };
+		047893EA1D3A9E1C00376101 /* splitLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E71D3A9E1C00376101 /* splitLine.png */; };
+		047893EB1D3A9E1C00376101 /* tabbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892E81D3A9E1C00376101 /* tabbg.png */; };
+		047893EC1D3A9E1C00376101 /* 两葱爆海参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892EA1D3A9E1C00376101 /* 两葱爆海参.jpg */; };
+		047893ED1D3A9E1C00376101 /* 五谷煮海参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892EB1D3A9E1C00376101 /* 五谷煮海参.jpg */; };
+		047893EE1D3A9E1C00376101 /* 南非网鲍(12头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892EC1D3A9E1C00376101 /* 南非网鲍(12头).jpg */; };
+		047893EF1D3A9E1C00376101 /* 南非网鲍(14头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892ED1D3A9E1C00376101 /* 南非网鲍(14头).jpg */; };
+		047893F01D3A9E1C00376101 /* 南非网鲍(8头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892EE1D3A9E1C00376101 /* 南非网鲍(8头).jpg */; };
+		047893F11D3A9E1C00376101 /* 印尼官燕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892EF1D3A9E1C00376101 /* 印尼官燕.jpg */; };
+		047893F21D3A9E1C00376101 /* 堂做印尼燕窝粥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F01D3A9E1C00376101 /* 堂做印尼燕窝粥.jpg */; };
+		047893F31D3A9E1C00376101 /* 极品吉品鲍(18头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F11D3A9E1C00376101 /* 极品吉品鲍(18头).jpg */; };
+		047893F41D3A9E1C00376101 /* 极品吉品鲍(20头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F21D3A9E1C00376101 /* 极品吉品鲍(20头).jpg */; };
+		047893F51D3A9E1C00376101 /* 极品吉品鲍(24头).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F31D3A9E1C00376101 /* 极品吉品鲍(24头).jpg */; };
+		047893F61D3A9E1C00376101 /* 牙拣翅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F41D3A9E1C00376101 /* 牙拣翅.jpg */; };
+		047893F71D3A9E1C00376101 /* 粗针翅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F51D3A9E1C00376101 /* 粗针翅.jpg */; };
+		047893F81D3A9E1C00376101 /* 金勾翅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F61D3A9E1C00376101 /* 金勾翅.jpg */; };
+		047893F91D3A9E1C00376101 /* 金山广肚公.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F71D3A9E1C00376101 /* 金山广肚公.jpg */; };
+		047893FA1D3A9E1C00376101 /* 鲍汁扣辽参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F81D3A9E1C00376101 /* 鲍汁扣辽参.jpg */; };
+		047893FB1D3A9E1C00376101 /* 鸭汁葱烧辽参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047892F91D3A9E1C00376101 /* 鸭汁葱烧辽参.jpg */; };
+		047893FC1D3A9E1C00376101 /* 两葱爆海参.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892FB1D3A9E1C00376101 /* 两葱爆海参.png */; };
+		047893FD1D3A9E1C00376101 /* 五谷煮海参.png in Resources */ = {isa = PBXBuildFile; fileRef = 047892FC1D3A9E1C00376101 /* 五谷煮海参.png */; };
+		047893FE1D3A9E1C00376101 /* 南非网鲍(12头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047892FD1D3A9E1C00376101 /* 南非网鲍(12头).png */; };
+		047893FF1D3A9E1C00376101 /* 南非网鲍(14头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047892FE1D3A9E1C00376101 /* 南非网鲍(14头).png */; };
+		047894001D3A9E1C00376101 /* 南非网鲍(8头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047892FF1D3A9E1C00376101 /* 南非网鲍(8头).png */; };
+		047894011D3A9E1C00376101 /* 印尼官燕.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893001D3A9E1C00376101 /* 印尼官燕.png */; };
+		047894021D3A9E1C00376101 /* 堂做印尼燕窝粥.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893011D3A9E1C00376101 /* 堂做印尼燕窝粥.png */; };
+		047894031D3A9E1C00376101 /* 极品吉品鲍(18头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047893021D3A9E1C00376101 /* 极品吉品鲍(18头).png */; };
+		047894041D3A9E1C00376101 /* 极品吉品鲍(20头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047893031D3A9E1C00376101 /* 极品吉品鲍(20头).png */; };
+		047894051D3A9E1C00376101 /* 极品吉品鲍(24头).png in Resources */ = {isa = PBXBuildFile; fileRef = 047893041D3A9E1C00376101 /* 极品吉品鲍(24头).png */; };
+		047894061D3A9E1C00376101 /* 牙拣翅.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893051D3A9E1C00376101 /* 牙拣翅.png */; };
+		047894071D3A9E1C00376101 /* 粗针翅.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893061D3A9E1C00376101 /* 粗针翅.png */; };
+		047894081D3A9E1C00376101 /* 金勾翅.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893071D3A9E1C00376101 /* 金勾翅.png */; };
+		047894091D3A9E1C00376101 /* 金山广肚公.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893081D3A9E1C00376101 /* 金山广肚公.png */; };
+		0478940A1D3A9E1C00376101 /* 鲍汁扣辽参.png in Resources */ = {isa = PBXBuildFile; fileRef = 047893091D3A9E1C00376101 /* 鲍汁扣辽参.png */; };
+		0478940B1D3A9E1C00376101 /* 鸭汁葱烧辽参.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478930A1D3A9E1C00376101 /* 鸭汁葱烧辽参.png */; };
+		0478940C1D3A9E1C00376101 /* 4GS2_2ZS_dfx_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478930C1D3A9E1C00376101 /* 4GS2_2ZS_dfx_10.jpg */; };
+		0478940D1D3A9E1C00376101 /* 七彩南瓜果.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478930D1D3A9E1C00376101 /* 七彩南瓜果.jpg */; };
+		0478940E1D3A9E1C00376101 /* 三文鱼腩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478930E1D3A9E1C00376101 /* 三文鱼腩.jpg */; };
+		0478940F1D3A9E1C00376101 /* 上汤龙虾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478930F1D3A9E1C00376101 /* 上汤龙虾.jpg */; };
+		047894101D3A9E1C00376101 /* 佛跳墙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893101D3A9E1C00376101 /* 佛跳墙.jpg */; };
+		047894111D3A9E1C00376101 /* 像生枣泥糕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893111D3A9E1C00376101 /* 像生枣泥糕.jpg */; };
+		047894121D3A9E1C00376101 /* 像生核桃果.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893121D3A9E1C00376101 /* 像生核桃果.jpg */; };
+		047894131D3A9E1C00376101 /* 养生杞子银杏炒百合.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893131D3A9E1C00376101 /* 养生杞子银杏炒百合.jpg */; };
+		047894141D3A9E1C00376101 /* 凉瓜青灼雪花牛肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893141D3A9E1C00376101 /* 凉瓜青灼雪花牛肉.jpg */; };
+		047894151D3A9E1C00376101 /* 北极贝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893151D3A9E1C00376101 /* 北极贝.jpg */; };
+		047894161D3A9E1C00376101 /* 南瓜淮山煮鲜茨实.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893161D3A9E1C00376101 /* 南瓜淮山煮鲜茨实.jpg */; };
+		047894171D3A9E1C00376101 /* 卤水拼盘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893171D3A9E1C00376101 /* 卤水拼盘.jpg */; };
+		047894181D3A9E1C00376101 /* 卤水腩肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893181D3A9E1C00376101 /* 卤水腩肉.jpg */; };
+		047894191D3A9E1C00376101 /* 卤水鹅掌.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893191D3A9E1C00376101 /* 卤水鹅掌.jpg */; };
+		0478941A1D3A9E1C00376101 /* 卤水鹅翼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931A1D3A9E1C00376101 /* 卤水鹅翼.jpg */; };
+		0478941B1D3A9E1C00376101 /* 卤水鹅肝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931B1D3A9E1C00376101 /* 卤水鹅肝.jpg */; };
+		0478941C1D3A9E1C00376101 /* 厚煎顶级雪花牛肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931C1D3A9E1C00376101 /* 厚煎顶级雪花牛肉.jpg */; };
+		0478941D1D3A9E1C00376101 /* 原之木瓜炖雪蛤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931D1D3A9E1C00376101 /* 原之木瓜炖雪蛤.jpg */; };
+		0478941E1D3A9E1C00376101 /* 原只番茄丄素珍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931E1D3A9E1C00376101 /* 原只番茄丄素珍.jpg */; };
+		0478941F1D3A9E1C00376101 /* 叉烧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478931F1D3A9E1C00376101 /* 叉烧.jpg */; };
+		047894201D3A9E1C00376101 /* 和风钻石拼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893201D3A9E1C00376101 /* 和风钻石拼.jpg */; };
+		047894211D3A9E1C00376101 /* 城南盐烧发财手.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893211D3A9E1C00376101 /* 城南盐烧发财手.jpg */; };
+		047894221D3A9E1C00376101 /* 堂煎安格斯牛仔骨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893221D3A9E1C00376101 /* 堂煎安格斯牛仔骨.jpg */; };
+		047894231D3A9E1C00376101 /* 多宝鱼两食.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893231D3A9E1C00376101 /* 多宝鱼两食.jpg */; };
+		047894241D3A9E1C00376101 /* 大厨炒饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893241D3A9E1C00376101 /* 大厨炒饭.jpg */; };
+		047894251D3A9E1C00376101 /* 头抽虎皮尖椒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893251D3A9E1C00376101 /* 头抽虎皮尖椒.jpg */; };
+		047894261D3A9E1C00376101 /* 头抽豉油鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893261D3A9E1C00376101 /* 头抽豉油鸡.jpg */; };
+		047894271D3A9E1C00376101 /* 奶沙紫薯果.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893271D3A9E1C00376101 /* 奶沙紫薯果.jpg */; };
+		047894281D3A9E1C00376101 /* 宴汇好味骨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893281D3A9E1C00376101 /* 宴汇好味骨.jpg */; };
+		047894291D3A9E1C00376101 /* 家乡葱油饼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893291D3A9E1C00376101 /* 家乡葱油饼.jpg */; };
+		0478942A1D3A9E1C00376101 /* 挪威三文鱼.png in Resources */ = {isa = PBXBuildFile; fileRef = 0478932A1D3A9E1C00376101 /* 挪威三文鱼.png */; };
+		0478942B1D3A9E1C00376101 /* 日式冻鹅肝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478932B1D3A9E1C00376101 /* 日式冻鹅肝.jpg */; };
+		0478942C1D3A9E1C00376101 /* 杏汁燕窝奶挞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478932C1D3A9E1C00376101 /* 杏汁燕窝奶挞.jpg */; };
+		0478942D1D3A9E1C00376101 /* 杜阮凉瓜焖龙趸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478932D1D3A9E1C00376101 /* 杜阮凉瓜焖龙趸.jpg */; };
+		0478942E1D3A9E1C00376101 /* 果仁鸳鸯虾球.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478932E1D3A9E1C00376101 /* 果仁鸳鸯虾球.jpg */; };
+		0478942F1D3A9E1C00376101 /* 桂花炒鱼肚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478932F1D3A9E1C00376101 /* 桂花炒鱼肚.jpg */; };
+		047894301D3A9E1C00376101 /* 法式吉斯拉包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893301D3A9E1C00376101 /* 法式吉斯拉包.jpg */; };
+		047894311D3A9E1C00376101 /* 海南文昌鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893311D3A9E1C00376101 /* 海南文昌鸡.jpg */; };
+		047894321D3A9E1C00376101 /* 海皇三鲜煎面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893321D3A9E1C00376101 /* 海皇三鲜煎面.jpg */; };
+		047894331D3A9E1C00376101 /* 海皇极品炒粉丝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893331D3A9E1C00376101 /* 海皇极品炒粉丝.jpg */; };
+		047894341D3A9E1C00376101 /* 深海金枪鱼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893341D3A9E1C00376101 /* 深海金枪鱼.jpg */; };
+		047894351D3A9E1C00376101 /* 潮式煲大连鲍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893351D3A9E1C00376101 /* 潮式煲大连鲍.jpg */; };
+		047894361D3A9E1C00376101 /* 潮式煲大连鲍1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893361D3A9E1C00376101 /* 潮式煲大连鲍1.jpg */; };
+		047894371D3A9E1C00376101 /* 潮式胜瓜煮鱼肚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893371D3A9E1C00376101 /* 潮式胜瓜煮鱼肚.jpg */; };
+		047894381D3A9E1C00376101 /* 烧肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893381D3A9E1C00376101 /* 烧肉.jpg */; };
+		047894391D3A9E1C00376101 /* 烧鹅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893391D3A9E1C00376101 /* 烧鹅.jpg */; };
+		0478943A1D3A9E1C00376101 /* 珍菌炒石燕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933A1D3A9E1C00376101 /* 珍菌炒石燕.jpg */; };
+		0478943B1D3A9E1C00376101 /* 琼山龙虾仔.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933B1D3A9E1C00376101 /* 琼山龙虾仔.jpg */; };
+		0478943C1D3A9E1C00376101 /* 瓦礃沙姜浸东星.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933C1D3A9E1C00376101 /* 瓦礃沙姜浸东星.jpg */; };
+		0478943D1D3A9E1C00376101 /* 白切鸡海南文昌鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933D1D3A9E1C00376101 /* 白切鸡海南文昌鸡.jpg */; };
+		0478943E1D3A9E1C00376101 /* 秘制卤水鹅头.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933E1D3A9E1C00376101 /* 秘制卤水鹅头.jpg */; };
+		0478943F1D3A9E1C00376101 /* 秘制海豹蛇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478933F1D3A9E1C00376101 /* 秘制海豹蛇.jpg */; };
+		047894401D3A9E1C00376101 /* 竹上素仙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893401D3A9E1C00376101 /* 竹上素仙.jpg */; };
+		047894411D3A9E1C00376101 /* 美极腊鸭舌.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893411D3A9E1C00376101 /* 美极腊鸭舌.jpg */; };
+		047894421D3A9E1C00376101 /* 翠叠百灵鳄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893421D3A9E1C00376101 /* 翠叠百灵鳄.jpg */; };
+		047894431D3A9E1C00376101 /* 翠堂菜拼金钱袋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893431D3A9E1C00376101 /* 翠堂菜拼金钱袋.jpg */; };
+		047894441D3A9E1C00376101 /* 肉汁炖虫草.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893441D3A9E1C00376101 /* 肉汁炖虫草.jpg */; };
+		047894451D3A9E1C00376101 /* 荷塘映月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893451D3A9E1C00376101 /* 荷塘映月.jpg */; };
+		047894461D3A9E1C00376101 /* 菜远炒牛奶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893461D3A9E1C00376101 /* 菜远炒牛奶.jpg */; };
+		047894471D3A9E1C00376101 /* 葱汁乳香肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893471D3A9E1C00376101 /* 葱汁乳香肉.jpg */; };
+		047894481D3A9E1C00376101 /* 葵花吐艳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893481D3A9E1C00376101 /* 葵花吐艳.jpg */; };
+		047894491D3A9E1C00376101 /* 蒜香雪花牛仔粒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893491D3A9E1C00376101 /* 蒜香雪花牛仔粒.jpg */; };
+		0478944A1D3A9E1C00376101 /* 虾头酱粉丝煲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934A1D3A9E1C00376101 /* 虾头酱粉丝煲.jpg */; };
+		0478944B1D3A9E1C00376101 /* 螺片捞手撕鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934B1D3A9E1C00376101 /* 螺片捞手撕鸡.jpg */; };
+		0478944C1D3A9E1C00376101 /* 螺片捞手撕鸡1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934C1D3A9E1C00376101 /* 螺片捞手撕鸡1.jpg */; };
+		0478944D1D3A9E1C00376101 /* 西班牙火腿拼俄罗斯墨鱼子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934D1D3A9E1C00376101 /* 西班牙火腿拼俄罗斯墨鱼子.jpg */; };
+		0478944E1D3A9E1C00376101 /* 象拔蚌刺身.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934E1D3A9E1C00376101 /* 象拔蚌刺身.jpg */; };
+		0478944F1D3A9E1C00376101 /* 野生水鱼焖鲍鱼鸡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478934F1D3A9E1C00376101 /* 野生水鱼焖鲍鱼鸡.jpg */; };
+		047894501D3A9E1C00376101 /* 金奖天鹅酥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893501D3A9E1C00376101 /* 金奖天鹅酥.jpg */; };
+		047894511D3A9E1C00376101 /* 金奖鳗鱼酥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893511D3A9E1C00376101 /* 金奖鳗鱼酥.jpg */; };
+		047894521D3A9E1C00376101 /* 金虫草花藕条炒海参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893521D3A9E1C00376101 /* 金虫草花藕条炒海参.jpg */; };
+		047894531D3A9E1C00376101 /* 金虫草藕条炒海参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893531D3A9E1C00376101 /* 金虫草藕条炒海参.jpg */; };
+		047894541D3A9E1C00376101 /* 铁板鹅肝粒炒饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893541D3A9E1C00376101 /* 铁板鹅肝粒炒饭.jpg */; };
+		047894551D3A9E1C00376101 /* 韭王鲜冬菇炒双脆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893551D3A9E1C00376101 /* 韭王鲜冬菇炒双脆.jpg */; };
+		047894561D3A9E1C00376101 /* 韭菜花炒福果曹虾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893561D3A9E1C00376101 /* 韭菜花炒福果曹虾.jpg */; };
+		047894571D3A9E1C00376101 /* 香煎东星扒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893571D3A9E1C00376101 /* 香煎东星扒.jpg */; };
+		047894581D3A9E1C00376101 /* 香煎大虾.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893581D3A9E1C00376101 /* 香煎大虾.jpg */; };
+		047894591D3A9E1C00376101 /* 香煎黄花鱼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893591D3A9E1C00376101 /* 香煎黄花鱼.jpg */; };
+		0478945A1D3A9E1C00376101 /* 香葱煎焗菜包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935A1D3A9E1C00376101 /* 香葱煎焗菜包.jpg */; };
+		0478945B1D3A9E1C00376101 /* 马友蒸开刀东星.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935B1D3A9E1C00376101 /* 马友蒸开刀东星.jpg */; };
+		0478945C1D3A9E1C00376101 /* 鱼汤米线.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935C1D3A9E1C00376101 /* 鱼汤米线.jpg */; };
+		0478945D1D3A9E1C00376101 /* 鱼肚肘子浸娃娃菜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935D1D3A9E1C00376101 /* 鱼肚肘子浸娃娃菜.jpg */; };
+		0478945E1D3A9E1C00376101 /* 鲍鱼粒泡饭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935E1D3A9E1C00376101 /* 鲍鱼粒泡饭.jpg */; };
+		0478945F1D3A9E1C00376101 /* 鲜茄蛋汤手擀面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478935F1D3A9E1C00376101 /* 鲜茄蛋汤手擀面.jpg */; };
+		047894601D3A9E1C00376101 /* 鸿运全体金猪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893601D3A9E1C00376101 /* 鸿运全体金猪.jpg */; };
+		047894611D3A9E1C00376101 /* 黄豆酱番茄焗银鳕鱼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893611D3A9E1C00376101 /* 黄豆酱番茄焗银鳕鱼.jpg */; };
+		047894621D3A9E1C00376101 /* 黑松露七骨扒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893621D3A9E1C00376101 /* 黑松露七骨扒.jpg */; };
+		047894631D3A9E1C00376101 /* 黑椒T骨扒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893631D3A9E1C00376101 /* 黑椒T骨扒.jpg */; };
+		047894641D3A9E1C00376101 /* 黑醋法国鹅肝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893641D3A9E1C00376101 /* 黑醋法国鹅肝.jpg */; };
+		047894651D3A9E1C00376101 /* 黑金山雀炖海参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893651D3A9E1C00376101 /* 黑金山雀炖海参.jpg */; };
+		047894661D3A9E1C00376101 /* 龙虾刺身.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893661D3A9E1C00376101 /* 龙虾刺身.jpg */; };
+		047894671D3A9E1C00376101 /* 不知年普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893681D3A9E1C00376101 /* 不知年普洱.jpg */; };
+		047894681D3A9E1C00376101 /* 人参乌龙茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893691D3A9E1C00376101 /* 人参乌龙茶.jpg */; };
+		047894691D3A9E1C00376101 /* 信阳毛尖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936A1D3A9E1C00376101 /* 信阳毛尖.jpg */; };
+		0478946A1D3A9E1C00376101 /* 冻顶乌龙茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936B1D3A9E1C00376101 /* 冻顶乌龙茶.jpg */; };
+		0478946B1D3A9E1C00376101 /* 勐海熟饼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936C1D3A9E1C00376101 /* 勐海熟饼.jpg */; };
+		0478946C1D3A9E1C00376101 /* 勐海生饼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936D1D3A9E1C00376101 /* 勐海生饼.jpg */; };
+		0478946D1D3A9E1C00376101 /* 参赛铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936E1D3A9E1C00376101 /* 参赛铁观音.jpg */; };
+		0478946E1D3A9E1C00376101 /* 家藏普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478936F1D3A9E1C00376101 /* 家藏普洱.jpg */; };
+		0478946F1D3A9E1C00376101 /* 御品铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893701D3A9E1C00376101 /* 御品铁观音.jpg */; };
+		047894701D3A9E1C00376101 /* 情人玫瑰花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893711D3A9E1C00376101 /* 情人玫瑰花.jpg */; };
+		047894711D3A9E1C00376101 /* 极品铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893721D3A9E1C00376101 /* 极品铁观音.jpg */; };
+		047894721D3A9E1C00376101 /* 武夷山大红袍.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893731D3A9E1C00376101 /* 武夷山大红袍.jpg */; };
+		047894731D3A9E1C00376101 /* 武夷山金骏眉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893741D3A9E1C00376101 /* 武夷山金骏眉.jpg */; };
+		047894741D3A9E1C00376101 /* 毛尖花茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893751D3A9E1C00376101 /* 毛尖花茶.jpg */; };
+		047894751D3A9E1C00376101 /* 清香铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893761D3A9E1C00376101 /* 清香铁观音.jpg */; };
+		047894761D3A9E1C00376101 /* 狮峰龙井.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893771D3A9E1C00376101 /* 狮峰龙井.jpg */; };
+		047894771D3A9E1C00376101 /* 珍藏普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893781D3A9E1C00376101 /* 珍藏普洱.jpg */; };
+		047894781D3A9E1C00376101 /* 粒粒香铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893791D3A9E1C00376101 /* 粒粒香铁观音.jpg */; };
+		047894791D3A9E1C00376101 /* 罗汉果凉茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937A1D3A9E1C00376101 /* 罗汉果凉茶.jpg */; };
+		0478947A1D3A9E1C00376101 /* 西湖龙井.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937B1D3A9E1C00376101 /* 西湖龙井.jpg */; };
+		0478947B1D3A9E1C00376101 /* 远年普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937C1D3A9E1C00376101 /* 远年普洱.jpg */; };
+		0478947C1D3A9E1C00376101 /* 野生昆仑雪菊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937D1D3A9E1C00376101 /* 野生昆仑雪菊.jpg */; };
+		0478947D1D3A9E1C00376101 /* 野生溪黄草.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937E1D3A9E1C00376101 /* 野生溪黄草.jpg */; };
+		0478947E1D3A9E1C00376101 /* 金奖铁观音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478937F1D3A9E1C00376101 /* 金奖铁观音.jpg */; };
+		0478947F1D3A9E1C00376101 /* 阿里山乌龙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893801D3A9E1C00376101 /* 阿里山乌龙.jpg */; };
+		047894801D3A9E1C00376101 /* 陈年普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893811D3A9E1C00376101 /* 陈年普洱.jpg */; };
+		047894811D3A9E1C00376101 /* 陈年桔普茶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893821D3A9E1C00376101 /* 陈年桔普茶.jpg */; };
+		047894821D3A9E1C00376101 /* 陈年生饼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893831D3A9E1C00376101 /* 陈年生饼.jpg */; };
+		047894831D3A9E1C00376101 /* 陈旧普洱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893841D3A9E1C00376101 /* 陈旧普洱.jpg */; };
+		047894841D3A9E1C00376101 /* 黄山野生菊花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893851D3A9E1C00376101 /* 黄山野生菊花.jpg */; };
+		047894851D3A9E1C00376101 /* 五粮液.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893871D3A9E1C00376101 /* 五粮液.jpg */; };
+		047894861D3A9E1C00376101 /* 剑南春.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893881D3A9E1C00376101 /* 剑南春.jpg */; };
+		047894871D3A9E1C00376101 /* 红星.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047893891D3A9E1C00376101 /* 红星.jpg */; };
+		047894881D3A9E1C00376101 /* 花雕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478938A1D3A9E1C00376101 /* 花雕.jpg */; };
+		047894891D3A9E1C00376101 /* 茅台.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0478938B1D3A9E1C00376101 /* 茅台.jpg */; };
+		04C3699A1D3DAAF7008C2CF5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C369941D3DAAF6008C2CF5 /* FMDatabase.m */; };
+		04C3699B1D3DAAF7008C2CF5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C369961D3DAAF7008C2CF5 /* FMDatabaseAdditions.m */; };
+		04C3699C1D3DAAF7008C2CF5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C369981D3DAAF7008C2CF5 /* FMResultSet.m */; };
+		04C3699D1D3DAAF7008C2CF5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04C369991D3DAAF7008C2CF5 /* LICENSE.txt */; };
+		04C3699F1D3DAB0C008C2CF5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3699E1D3DAB0C008C2CF5 /* libsqlite3.0.dylib */; };
+		04C369A51D3DAF50008C2CF5 /* MenuDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C369A41D3DAF50008C2CF5 /* MenuDatabase.m */; };
+		04ED40661D3D348A00A93F86 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED40641D3D348A00A93F86 /* FirstViewController.m */; };
+		04ED40671D3D348A00A93F86 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED40651D3D348A00A93F86 /* FirstViewController.xib */; };
+		04ED42E71D3D819A00A93F86 /* secendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED42E51D3D819A00A93F86 /* secendViewController.m */; };
+		04ED42E81D3D819A00A93F86 /* secendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED42E61D3D819A00A93F86 /* secendViewController.xib */; };
+		04ED42F61D3D960F00A93F86 /* menuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ED42F41D3D960F00A93F86 /* menuTableViewCell.m */; };
+		04ED42F71D3D960F00A93F86 /* menuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ED42F51D3D960F00A93F86 /* menuTableViewCell.xib */; };
+		04EF67B11D3EE2C1004C5E3C /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF67B01D3EE2C1004C5E3C /* Group.m */; };
+		04EF67B41D3EF5D1004C5E3C /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF67B31D3EF5D1004C5E3C /* ImageScrollView.m */; };
+		04F9A2401D40242400239457 /* XiangQingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A23E1D40242400239457 /* XiangQingVC.m */; };
+		04F9A2411D40242400239457 /* XiangQingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9A23F1D40242400239457 /* XiangQingVC.xib */; };
+		04F9A2451D4031E900239457 /* diancaiDatebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A2441D4031E900239457 /* diancaiDatebase.m */; };
+		04F9A2481D4065E300239457 /* MyDianCai.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A2471D4065E300239457 /* MyDianCai.m */; };
+		04F9A24C1D40697E00239457 /* MyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A24A1D40697E00239457 /* MyOrderViewController.m */; };
+		04F9A24D1D40697E00239457 /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9A24B1D40697E00239457 /* MyOrderViewController.xib */; };
+		04F9A2511D406B5000239457 /* MyOrderDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A2501D406B5000239457 /* MyOrderDatabase.m */; };
+		04F9A2551D406D1000239457 /* MyOrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F9A2531D406D1000239457 /* MyOrderTableViewCell.m */; };
+		04F9A2561D406D1000239457 /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F9A2541D406D1000239457 /* MyOrderTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047892731D3A9DCB00376101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047892451D3A9DCB00376101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0478924C1D3A9DCB00376101;
+			remoteInfo = OrderDish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042995F31D4152DB00854C84 /* SongDanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDanVC.h; sourceTree = "<group>"; };
+		042995F41D4152DB00854C84 /* SongDanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDanVC.m; sourceTree = "<group>"; };
+		042995F51D4152DB00854C84 /* SongDanVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongDanVC.xib; sourceTree = "<group>"; };
+		042995F91D4166AA00854C84 /* ZuoWeiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZuoWeiVC.h; sourceTree = "<group>"; };
+		042995FA1D4166AA00854C84 /* ZuoWeiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZuoWeiVC.m; sourceTree = "<group>"; };
+		042995FB1D4166AA00854C84 /* ZuoWeiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZuoWeiVC.xib; sourceTree = "<group>"; };
+		044F94321D3AA5F800E25F3A /* LanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageViewController.h; sourceTree = "<group>"; };
+		044F94331D3AA5F800E25F3A /* LanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageViewController.m; sourceTree = "<group>"; };
+		044F94341D3AA5F800E25F3A /* LanguageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanguageViewController.xib; sourceTree = "<group>"; };
+		044F94381D3AA95400E25F3A /* orderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderViewController.h; sourceTree = "<group>"; };
+		044F94391D3AA95400E25F3A /* orderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderViewController.m; sourceTree = "<group>"; };
+		044F943A1D3AA95400E25F3A /* orderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = orderViewController.xib; sourceTree = "<group>"; };
+		044F94441D3AC50D00E25F3A /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		044F94451D3AC50D00E25F3A /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		044F94461D3AC50D00E25F3A /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		04549C0E1D417E7C0047872C /* LiShiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiShiVC.h; sourceTree = "<group>"; };
+		04549C0F1D417E7C0047872C /* LiShiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiShiVC.m; sourceTree = "<group>"; };
+		04549C101D417E7C0047872C /* LiShiVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiShiVC.xib; sourceTree = "<group>"; };
+		04549C131D4181210047872C /* recordTableDatebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordTableDatebase.h; sourceTree = "<group>"; };
+		04549C141D4181210047872C /* recordTableDatebase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recordTableDatebase.m; sourceTree = "<group>"; };
+		04549C161D4181420047872C /* room_recordTableDatebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = room_recordTableDatebase.h; sourceTree = "<group>"; };
+		04549C171D4181420047872C /* room_recordTableDatebase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = room_recordTableDatebase.m; sourceTree = "<group>"; };
+		04549C191D4181570047872C /* room_recordTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = room_recordTable.h; sourceTree = "<group>"; };
+		04549C1A1D4181570047872C /* room_recordTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = room_recordTable.m; sourceTree = "<group>"; };
+		04549C1C1D41816C0047872C /* recordTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordTable.h; sourceTree = "<group>"; };
+		04549C1D1D41816C0047872C /* recordTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recordTable.m; sourceTree = "<group>"; };
+		04549C201D41A4DA0047872C /* LSVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSVCCell.h; sourceTree = "<group>"; };
+		04549C211D41A4DA0047872C /* LSVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSVCCell.m; sourceTree = "<group>"; };
+		04549C221D41A4DA0047872C /* LSVCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSVCCell.xib; sourceTree = "<group>"; };
+		04549C2F1D41DAF60047872C /* ChaXunVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaXunVC.h; sourceTree = "<group>"; };
+		04549C301D41DAF60047872C /* ChaXunVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaXunVC.m; sourceTree = "<group>"; };
+		04549C311D41DAF60047872C /* ChaXunVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChaXunVC.xib; sourceTree = "<group>"; };
+		0478924D1D3A9DCB00376101 /* OrderDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047892501D3A9DCB00376101 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		047892521D3A9DCB00376101 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		047892541D3A9DCB00376101 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		047892581D3A9DCB00376101 /* OrderDish-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderDish-Info.plist"; sourceTree = "<group>"; };
+		0478925A1D3A9DCB00376101 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0478925C1D3A9DCB00376101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0478925E1D3A9DCB00376101 /* OrderDish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderDish-Prefix.pch"; sourceTree = "<group>"; };
+		0478925F1D3A9DCB00376101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047892601D3A9DCB00376101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		047892631D3A9DCB00376101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047892651D3A9DCB00376101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		047892661D3A9DCB00376101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		047892681D3A9DCB00376101 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0478926E1D3A9DCB00376101 /* OrderDishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderDishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0478926F1D3A9DCB00376101 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		047892771D3A9DCB00376101 /* OrderDishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderDishTests-Info.plist"; sourceTree = "<group>"; };
+		047892791D3A9DCB00376101 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0478927B1D3A9DCB00376101 /* OrderDishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDishTests.m; sourceTree = "<group>"; };
+		047892851D3A9E1C00376101 /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		047892871D3A9E1C00376101 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		047892881D3A9E1C00376101 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		047892891D3A9E1C00376101 /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		0478928A1D3A9E1C00376101 /* bgp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgp1.jpg; sourceTree = "<group>"; };
+		0478928B1D3A9E1C00376101 /* bgp3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp3.png; sourceTree = "<group>"; };
+		0478928C1D3A9E1C00376101 /* bgp31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp31.png; sourceTree = "<group>"; };
+		0478928D1D3A9E1C00376101 /* bgp33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp33.png; sourceTree = "<group>"; };
+		0478928E1D3A9E1C00376101 /* bgp4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp4.png; sourceTree = "<group>"; };
+		0478928F1D3A9E1C00376101 /* bgp41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp41.png; sourceTree = "<group>"; };
+		047892901D3A9E1C00376101 /* bgp5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp5.png; sourceTree = "<group>"; };
+		047892911D3A9E1C00376101 /* bgp6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgp6.jpg; sourceTree = "<group>"; };
+		047892921D3A9E1C00376101 /* bgp6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp6.png; sourceTree = "<group>"; };
+		047892931D3A9E1C00376101 /* bgp8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp8.png; sourceTree = "<group>"; };
+		047892941D3A9E1C00376101 /* bgp81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgp81.png; sourceTree = "<group>"; };
+		047892951D3A9E1C00376101 /* bgpp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgpp2.jpg; sourceTree = "<group>"; };
+		047892961D3A9E1C00376101 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		047892971D3A9E1C00376101 /* btnBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnBG.png; sourceTree = "<group>"; };
+		047892991D3A9E1C00376101 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0478929A1D3A9E1C00376101 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		0478929B1D3A9E1C00376101 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		0478929C1D3A9E1C00376101 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		0478929D1D3A9E1C00376101 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		0478929E1D3A9E1C00376101 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		0478929F1D3A9E1C00376101 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		047892A01D3A9E1C00376101 /* chinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chinese.png; sourceTree = "<group>"; };
+		047892A11D3A9E1C00376101 /* cwxz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cwxz.png; sourceTree = "<group>"; };
+		047892A21D3A9E1C00376101 /* dlbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dlbg.png; sourceTree = "<group>"; };
+		047892A31D3A9E1C00376101 /* english.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = english.png; sourceTree = "<group>"; };
+		047892A41D3A9E1C00376101 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		047892A51D3A9E1C00376101 /* guangyun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guangyun.png; sourceTree = "<group>"; };
+		047892A61D3A9E1C00376101 /* hchinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hchinese.png; sourceTree = "<group>"; };
+		047892A71D3A9E1C00376101 /* henglish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = henglish.png; sourceTree = "<group>"; };
+		047892A81D3A9E1C00376101 /* hrbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hrbg.png; sourceTree = "<group>"; };
+		047892A91D3A9E1C00376101 /* line31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line31.png; sourceTree = "<group>"; };
+		047892AA1D3A9E1C00376101 /* line32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line32.png; sourceTree = "<group>"; };
+		047892AB1D3A9E1C00376101 /* line33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line33.png; sourceTree = "<group>"; };
+		047892AC1D3A9E1C00376101 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		047892AD1D3A9E1C00376101 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		047892AF1D3A9E1C00376101 /* 2icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2icon.png; sourceTree = "<group>"; };
+		047892B01D3A9E1C00376101 /* 3icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3icon.png; sourceTree = "<group>"; };
+		047892B11D3A9E1C00376101 /* 4icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4icon.png; sourceTree = "<group>"; };
+		047892B21D3A9E1C00376101 /* 5icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5icon.png; sourceTree = "<group>"; };
+		047892B31D3A9E1C00376101 /* 6icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6icon.png; sourceTree = "<group>"; };
+		047892B41D3A9E1C00376101 /* 7icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7icon.png; sourceTree = "<group>"; };
+		047892B51D3A9E1C00376101 /* addbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addbtn.png; sourceTree = "<group>"; };
+		047892B61D3A9E1C00376101 /* bzbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bzbtn.png; sourceTree = "<group>"; };
+		047892B71D3A9E1C00376101 /* 1_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_n.png; sourceTree = "<group>"; };
+		047892B81D3A9E1C00376101 /* cude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cude.png; sourceTree = "<group>"; };
+		047892B91D3A9E1C00376101 /* dcbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dcbtn.png; sourceTree = "<group>"; };
+		047892BA1D3A9E1C00376101 /* 1_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_s.png; sourceTree = "<group>"; };
+		047892BB1D3A9E1C00376101 /* 6_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_s.png; sourceTree = "<group>"; };
+		047892BC1D3A9E1C00376101 /* 2_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_s.png; sourceTree = "<group>"; };
+		047892BD1D3A9E1C00376101 /* 3_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_s.png; sourceTree = "<group>"; };
+		047892BE1D3A9E1C00376101 /* 4_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_s.png; sourceTree = "<group>"; };
+		047892BF1D3A9E1C00376101 /* 0_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0_s.png; sourceTree = "<group>"; };
+		047892C01D3A9E1C00376101 /* hzong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hzong.png; sourceTree = "<group>"; };
+		047892C11D3A9E1C00376101 /* 5_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_s.png; sourceTree = "<group>"; };
+		047892C21D3A9E1C00376101 /* 6_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_n.png; sourceTree = "<group>"; };
+		047892C31D3A9E1C00376101 /* 2_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_n.png; sourceTree = "<group>"; };
+		047892C41D3A9E1C00376101 /* qcbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qcbtn.png; sourceTree = "<group>"; };
+		047892C51D3A9E1C00376101 /* 3_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_n.png; sourceTree = "<group>"; };
+		047892C61D3A9E1C00376101 /* reducebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reducebtn.png; sourceTree = "<group>"; };
+		047892C71D3A9E1C00376101 /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = return.png; sourceTree = "<group>"; };
+		047892C81D3A9E1C00376101 /* sd1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sd1.png; sourceTree = "<group>"; };
+		047892C91D3A9E1C00376101 /* sd2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sd2.png; sourceTree = "<group>"; };
+		047892CA1D3A9E1C00376101 /* sd3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sd3.png; sourceTree = "<group>"; };
+		047892CB1D3A9E1C00376101 /* sdbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdbtn.png; sourceTree = "<group>"; };
+		047892CC1D3A9E1C00376101 /* 4_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_n.png; sourceTree = "<group>"; };
+		047892CD1D3A9E1C00376101 /* xqbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xqbtn.png; sourceTree = "<group>"; };
+		047892CE1D3A9E1C00376101 /* ysdicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ysdicon.png; sourceTree = "<group>"; };
+		047892CF1D3A9E1C00376101 /* yszicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yszicon.png; sourceTree = "<group>"; };
+		047892D01D3A9E1C00376101 /* yticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yticon.png; sourceTree = "<group>"; };
+		047892D11D3A9E1C00376101 /* 0_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0_n.png; sourceTree = "<group>"; };
+		047892D21D3A9E1C00376101 /* 5_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_n.png; sourceTree = "<group>"; };
+		047892D31D3A9E1C00376101 /* myorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myorder.png; sourceTree = "<group>"; };
+		047892D41D3A9E1C00376101 /* p1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p1.jpg; sourceTree = "<group>"; };
+		047892D51D3A9E1C00376101 /* p2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p2.jpg; sourceTree = "<group>"; };
+		047892D61D3A9E1C00376101 /* p61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p61.png; sourceTree = "<group>"; };
+		047892D71D3A9E1C00376101 /* pg80.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pg80.jpg; sourceTree = "<group>"; };
+		047892D81D3A9E1C00376101 /* remark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remark.png; sourceTree = "<group>"; };
+		047892D91D3A9E1C00376101 /* res.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = res.jpg; sourceTree = "<group>"; };
+		047892DA1D3A9E1C00376101 /* sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanjiao.png; sourceTree = "<group>"; };
+		047892DB1D3A9E1C00376101 /* sdbtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdbtn2.png; sourceTree = "<group>"; };
+		047892DD1D3A9E1C00376101 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		047892DE1D3A9E1C00376101 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		047892DF1D3A9E1C00376101 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		047892E01D3A9E1C00376101 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		047892E11D3A9E1C00376101 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		047892E21D3A9E1C00376101 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		047892E31D3A9E1C00376101 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		047892E41D3A9E1C00376101 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		047892E51D3A9E1C00376101 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		047892E61D3A9E1C00376101 /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
+		047892E71D3A9E1C00376101 /* splitLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splitLine.png; sourceTree = "<group>"; };
+		047892E81D3A9E1C00376101 /* tabbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbg.png; sourceTree = "<group>"; };
+		047892EA1D3A9E1C00376101 /* 两葱爆海参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "两葱爆海参.jpg"; sourceTree = "<group>"; };
+		047892EB1D3A9E1C00376101 /* 五谷煮海参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "五谷煮海参.jpg"; sourceTree = "<group>"; };
+		047892EC1D3A9E1C00376101 /* 南非网鲍(12头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南非网鲍(12头).jpg"; sourceTree = "<group>"; };
+		047892ED1D3A9E1C00376101 /* 南非网鲍(14头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南非网鲍(14头).jpg"; sourceTree = "<group>"; };
+		047892EE1D3A9E1C00376101 /* 南非网鲍(8头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南非网鲍(8头).jpg"; sourceTree = "<group>"; };
+		047892EF1D3A9E1C00376101 /* 印尼官燕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "印尼官燕.jpg"; sourceTree = "<group>"; };
+		047892F01D3A9E1C00376101 /* 堂做印尼燕窝粥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "堂做印尼燕窝粥.jpg"; sourceTree = "<group>"; };
+		047892F11D3A9E1C00376101 /* 极品吉品鲍(18头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "极品吉品鲍(18头).jpg"; sourceTree = "<group>"; };
+		047892F21D3A9E1C00376101 /* 极品吉品鲍(20头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "极品吉品鲍(20头).jpg"; sourceTree = "<group>"; };
+		047892F31D3A9E1C00376101 /* 极品吉品鲍(24头).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "极品吉品鲍(24头).jpg"; sourceTree = "<group>"; };
+		047892F41D3A9E1C00376101 /* 牙拣翅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牙拣翅.jpg"; sourceTree = "<group>"; };
+		047892F51D3A9E1C00376101 /* 粗针翅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "粗针翅.jpg"; sourceTree = "<group>"; };
+		047892F61D3A9E1C00376101 /* 金勾翅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金勾翅.jpg"; sourceTree = "<group>"; };
+		047892F71D3A9E1C00376101 /* 金山广肚公.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金山广肚公.jpg"; sourceTree = "<group>"; };
+		047892F81D3A9E1C00376101 /* 鲍汁扣辽参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鲍汁扣辽参.jpg"; sourceTree = "<group>"; };
+		047892F91D3A9E1C00376101 /* 鸭汁葱烧辽参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸭汁葱烧辽参.jpg"; sourceTree = "<group>"; };
+		047892FB1D3A9E1C00376101 /* 两葱爆海参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "两葱爆海参.png"; sourceTree = "<group>"; };
+		047892FC1D3A9E1C00376101 /* 五谷煮海参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五谷煮海参.png"; sourceTree = "<group>"; };
+		047892FD1D3A9E1C00376101 /* 南非网鲍(12头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "南非网鲍(12头).png"; sourceTree = "<group>"; };
+		047892FE1D3A9E1C00376101 /* 南非网鲍(14头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "南非网鲍(14头).png"; sourceTree = "<group>"; };
+		047892FF1D3A9E1C00376101 /* 南非网鲍(8头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "南非网鲍(8头).png"; sourceTree = "<group>"; };
+		047893001D3A9E1C00376101 /* 印尼官燕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "印尼官燕.png"; sourceTree = "<group>"; };
+		047893011D3A9E1C00376101 /* 堂做印尼燕窝粥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "堂做印尼燕窝粥.png"; sourceTree = "<group>"; };
+		047893021D3A9E1C00376101 /* 极品吉品鲍(18头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极品吉品鲍(18头).png"; sourceTree = "<group>"; };
+		047893031D3A9E1C00376101 /* 极品吉品鲍(20头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极品吉品鲍(20头).png"; sourceTree = "<group>"; };
+		047893041D3A9E1C00376101 /* 极品吉品鲍(24头).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "极品吉品鲍(24头).png"; sourceTree = "<group>"; };
+		047893051D3A9E1C00376101 /* 牙拣翅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牙拣翅.png"; sourceTree = "<group>"; };
+		047893061D3A9E1C00376101 /* 粗针翅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粗针翅.png"; sourceTree = "<group>"; };
+		047893071D3A9E1C00376101 /* 金勾翅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金勾翅.png"; sourceTree = "<group>"; };
+		047893081D3A9E1C00376101 /* 金山广肚公.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金山广肚公.png"; sourceTree = "<group>"; };
+		047893091D3A9E1C00376101 /* 鲍汁扣辽参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鲍汁扣辽参.png"; sourceTree = "<group>"; };
+		0478930A1D3A9E1C00376101 /* 鸭汁葱烧辽参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸭汁葱烧辽参.png"; sourceTree = "<group>"; };
+		0478930C1D3A9E1C00376101 /* 4GS2_2ZS_dfx_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4GS2_2ZS_dfx_10.jpg; sourceTree = "<group>"; };
+		0478930D1D3A9E1C00376101 /* 七彩南瓜果.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "七彩南瓜果.jpg"; sourceTree = "<group>"; };
+		0478930E1D3A9E1C00376101 /* 三文鱼腩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "三文鱼腩.jpg"; sourceTree = "<group>"; };
+		0478930F1D3A9E1C00376101 /* 上汤龙虾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "上汤龙虾.jpg"; sourceTree = "<group>"; };
+		047893101D3A9E1C00376101 /* 佛跳墙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "佛跳墙.jpg"; sourceTree = "<group>"; };
+		047893111D3A9E1C00376101 /* 像生枣泥糕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "像生枣泥糕.jpg"; sourceTree = "<group>"; };
+		047893121D3A9E1C00376101 /* 像生核桃果.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "像生核桃果.jpg"; sourceTree = "<group>"; };
+		047893131D3A9E1C00376101 /* 养生杞子银杏炒百合.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "养生杞子银杏炒百合.jpg"; sourceTree = "<group>"; };
+		047893141D3A9E1C00376101 /* 凉瓜青灼雪花牛肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "凉瓜青灼雪花牛肉.jpg"; sourceTree = "<group>"; };
+		047893151D3A9E1C00376101 /* 北极贝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "北极贝.jpg"; sourceTree = "<group>"; };
+		047893161D3A9E1C00376101 /* 南瓜淮山煮鲜茨实.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "南瓜淮山煮鲜茨实.jpg"; sourceTree = "<group>"; };
+		047893171D3A9E1C00376101 /* 卤水拼盘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卤水拼盘.jpg"; sourceTree = "<group>"; };
+		047893181D3A9E1C00376101 /* 卤水腩肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卤水腩肉.jpg"; sourceTree = "<group>"; };
+		047893191D3A9E1C00376101 /* 卤水鹅掌.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卤水鹅掌.jpg"; sourceTree = "<group>"; };
+		0478931A1D3A9E1C00376101 /* 卤水鹅翼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卤水鹅翼.jpg"; sourceTree = "<group>"; };
+		0478931B1D3A9E1C00376101 /* 卤水鹅肝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卤水鹅肝.jpg"; sourceTree = "<group>"; };
+		0478931C1D3A9E1C00376101 /* 厚煎顶级雪花牛肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厚煎顶级雪花牛肉.jpg"; sourceTree = "<group>"; };
+		0478931D1D3A9E1C00376101 /* 原之木瓜炖雪蛤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "原之木瓜炖雪蛤.jpg"; sourceTree = "<group>"; };
+		0478931E1D3A9E1C00376101 /* 原只番茄丄素珍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "原只番茄丄素珍.jpg"; sourceTree = "<group>"; };
+		0478931F1D3A9E1C00376101 /* 叉烧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "叉烧.jpg"; sourceTree = "<group>"; };
+		047893201D3A9E1C00376101 /* 和风钻石拼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "和风钻石拼.jpg"; sourceTree = "<group>"; };
+		047893211D3A9E1C00376101 /* 城南盐烧发财手.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "城南盐烧发财手.jpg"; sourceTree = "<group>"; };
+		047893221D3A9E1C00376101 /* 堂煎安格斯牛仔骨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "堂煎安格斯牛仔骨.jpg"; sourceTree = "<group>"; };
+		047893231D3A9E1C00376101 /* 多宝鱼两食.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多宝鱼两食.jpg"; sourceTree = "<group>"; };
+		047893241D3A9E1C00376101 /* 大厨炒饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大厨炒饭.jpg"; sourceTree = "<group>"; };
+		047893251D3A9E1C00376101 /* 头抽虎皮尖椒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头抽虎皮尖椒.jpg"; sourceTree = "<group>"; };
+		047893261D3A9E1C00376101 /* 头抽豉油鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头抽豉油鸡.jpg"; sourceTree = "<group>"; };
+		047893271D3A9E1C00376101 /* 奶沙紫薯果.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "奶沙紫薯果.jpg"; sourceTree = "<group>"; };
+		047893281D3A9E1C00376101 /* 宴汇好味骨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宴汇好味骨.jpg"; sourceTree = "<group>"; };
+		047893291D3A9E1C00376101 /* 家乡葱油饼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "家乡葱油饼.jpg"; sourceTree = "<group>"; };
+		0478932A1D3A9E1C00376101 /* 挪威三文鱼.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "挪威三文鱼.png"; sourceTree = "<group>"; };
+		0478932B1D3A9E1C00376101 /* 日式冻鹅肝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "日式冻鹅肝.jpg"; sourceTree = "<group>"; };
+		0478932C1D3A9E1C00376101 /* 杏汁燕窝奶挞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杏汁燕窝奶挞.jpg"; sourceTree = "<group>"; };
+		0478932D1D3A9E1C00376101 /* 杜阮凉瓜焖龙趸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜阮凉瓜焖龙趸.jpg"; sourceTree = "<group>"; };
+		0478932E1D3A9E1C00376101 /* 果仁鸳鸯虾球.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "果仁鸳鸯虾球.jpg"; sourceTree = "<group>"; };
+		0478932F1D3A9E1C00376101 /* 桂花炒鱼肚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桂花炒鱼肚.jpg"; sourceTree = "<group>"; };
+		047893301D3A9E1C00376101 /* 法式吉斯拉包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "法式吉斯拉包.jpg"; sourceTree = "<group>"; };
+		047893311D3A9E1C00376101 /* 海南文昌鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海南文昌鸡.jpg"; sourceTree = "<group>"; };
+		047893321D3A9E1C00376101 /* 海皇三鲜煎面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海皇三鲜煎面.jpg"; sourceTree = "<group>"; };
+		047893331D3A9E1C00376101 /* 海皇极品炒粉丝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海皇极品炒粉丝.jpg"; sourceTree = "<group>"; };
+		047893341D3A9E1C00376101 /* 深海金枪鱼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "深海金枪鱼.jpg"; sourceTree = "<group>"; };
+		047893351D3A9E1C00376101 /* 潮式煲大连鲍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潮式煲大连鲍.jpg"; sourceTree = "<group>"; };
+		047893361D3A9E1C00376101 /* 潮式煲大连鲍1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潮式煲大连鲍1.jpg"; sourceTree = "<group>"; };
+		047893371D3A9E1C00376101 /* 潮式胜瓜煮鱼肚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潮式胜瓜煮鱼肚.jpg"; sourceTree = "<group>"; };
+		047893381D3A9E1C00376101 /* 烧肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "烧肉.jpg"; sourceTree = "<group>"; };
+		047893391D3A9E1C00376101 /* 烧鹅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "烧鹅.jpg"; sourceTree = "<group>"; };
+		0478933A1D3A9E1C00376101 /* 珍菌炒石燕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "珍菌炒石燕.jpg"; sourceTree = "<group>"; };
+		0478933B1D3A9E1C00376101 /* 琼山龙虾仔.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "琼山龙虾仔.jpg"; sourceTree = "<group>"; };
+		0478933C1D3A9E1C00376101 /* 瓦礃沙姜浸东星.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "瓦礃沙姜浸东星.jpg"; sourceTree = "<group>"; };
+		0478933D1D3A9E1C00376101 /* 白切鸡海南文昌鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白切鸡海南文昌鸡.jpg"; sourceTree = "<group>"; };
+		0478933E1D3A9E1C00376101 /* 秘制卤水鹅头.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秘制卤水鹅头.jpg"; sourceTree = "<group>"; };
+		0478933F1D3A9E1C00376101 /* 秘制海豹蛇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秘制海豹蛇.jpg"; sourceTree = "<group>"; };
+		047893401D3A9E1C00376101 /* 竹上素仙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "竹上素仙.jpg"; sourceTree = "<group>"; };
+		047893411D3A9E1C00376101 /* 美极腊鸭舌.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美极腊鸭舌.jpg"; sourceTree = "<group>"; };
+		047893421D3A9E1C00376101 /* 翠叠百灵鳄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "翠叠百灵鳄.jpg"; sourceTree = "<group>"; };
+		047893431D3A9E1C00376101 /* 翠堂菜拼金钱袋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "翠堂菜拼金钱袋.jpg"; sourceTree = "<group>"; };
+		047893441D3A9E1C00376101 /* 肉汁炖虫草.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "肉汁炖虫草.jpg"; sourceTree = "<group>"; };
+		047893451D3A9E1C00376101 /* 荷塘映月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "荷塘映月.jpg"; sourceTree = "<group>"; };
+		047893461D3A9E1C00376101 /* 菜远炒牛奶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "菜远炒牛奶.jpg"; sourceTree = "<group>"; };
+		047893471D3A9E1C00376101 /* 葱汁乳香肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葱汁乳香肉.jpg"; sourceTree = "<group>"; };
+		047893481D3A9E1C00376101 /* 葵花吐艳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葵花吐艳.jpg"; sourceTree = "<group>"; };
+		047893491D3A9E1C00376101 /* 蒜香雪花牛仔粒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蒜香雪花牛仔粒.jpg"; sourceTree = "<group>"; };
+		0478934A1D3A9E1C00376101 /* 虾头酱粉丝煲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "虾头酱粉丝煲.jpg"; sourceTree = "<group>"; };
+		0478934B1D3A9E1C00376101 /* 螺片捞手撕鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "螺片捞手撕鸡.jpg"; sourceTree = "<group>"; };
+		0478934C1D3A9E1C00376101 /* 螺片捞手撕鸡1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "螺片捞手撕鸡1.jpg"; sourceTree = "<group>"; };
+		0478934D1D3A9E1C00376101 /* 西班牙火腿拼俄罗斯墨鱼子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西班牙火腿拼俄罗斯墨鱼子.jpg"; sourceTree = "<group>"; };
+		0478934E1D3A9E1C00376101 /* 象拔蚌刺身.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "象拔蚌刺身.jpg"; sourceTree = "<group>"; };
+		0478934F1D3A9E1C00376101 /* 野生水鱼焖鲍鱼鸡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野生水鱼焖鲍鱼鸡.jpg"; sourceTree = "<group>"; };
+		047893501D3A9E1C00376101 /* 金奖天鹅酥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金奖天鹅酥.jpg"; sourceTree = "<group>"; };
+		047893511D3A9E1C00376101 /* 金奖鳗鱼酥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金奖鳗鱼酥.jpg"; sourceTree = "<group>"; };
+		047893521D3A9E1C00376101 /* 金虫草花藕条炒海参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金虫草花藕条炒海参.jpg"; sourceTree = "<group>"; };
+		047893531D3A9E1C00376101 /* 金虫草藕条炒海参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金虫草藕条炒海参.jpg"; sourceTree = "<group>"; };
+		047893541D3A9E1C00376101 /* 铁板鹅肝粒炒饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "铁板鹅肝粒炒饭.jpg"; sourceTree = "<group>"; };
+		047893551D3A9E1C00376101 /* 韭王鲜冬菇炒双脆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韭王鲜冬菇炒双脆.jpg"; sourceTree = "<group>"; };
+		047893561D3A9E1C00376101 /* 韭菜花炒福果曹虾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韭菜花炒福果曹虾.jpg"; sourceTree = "<group>"; };
+		047893571D3A9E1C00376101 /* 香煎东星扒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香煎东星扒.jpg"; sourceTree = "<group>"; };
+		047893581D3A9E1C00376101 /* 香煎大虾.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香煎大虾.jpg"; sourceTree = "<group>"; };
+		047893591D3A9E1C00376101 /* 香煎黄花鱼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香煎黄花鱼.jpg"; sourceTree = "<group>"; };
+		0478935A1D3A9E1C00376101 /* 香葱煎焗菜包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香葱煎焗菜包.jpg"; sourceTree = "<group>"; };
+		0478935B1D3A9E1C00376101 /* 马友蒸开刀东星.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马友蒸开刀东星.jpg"; sourceTree = "<group>"; };
+		0478935C1D3A9E1C00376101 /* 鱼汤米线.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鱼汤米线.jpg"; sourceTree = "<group>"; };
+		0478935D1D3A9E1C00376101 /* 鱼肚肘子浸娃娃菜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鱼肚肘子浸娃娃菜.jpg"; sourceTree = "<group>"; };
+		0478935E1D3A9E1C00376101 /* 鲍鱼粒泡饭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鲍鱼粒泡饭.jpg"; sourceTree = "<group>"; };
+		0478935F1D3A9E1C00376101 /* 鲜茄蛋汤手擀面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鲜茄蛋汤手擀面.jpg"; sourceTree = "<group>"; };
+		047893601D3A9E1C00376101 /* 鸿运全体金猪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸿运全体金猪.jpg"; sourceTree = "<group>"; };
+		047893611D3A9E1C00376101 /* 黄豆酱番茄焗银鳕鱼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄豆酱番茄焗银鳕鱼.jpg"; sourceTree = "<group>"; };
+		047893621D3A9E1C00376101 /* 黑松露七骨扒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑松露七骨扒.jpg"; sourceTree = "<group>"; };
+		047893631D3A9E1C00376101 /* 黑椒T骨扒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑椒T骨扒.jpg"; sourceTree = "<group>"; };
+		047893641D3A9E1C00376101 /* 黑醋法国鹅肝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑醋法国鹅肝.jpg"; sourceTree = "<group>"; };
+		047893651D3A9E1C00376101 /* 黑金山雀炖海参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黑金山雀炖海参.jpg"; sourceTree = "<group>"; };
+		047893661D3A9E1C00376101 /* 龙虾刺身.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "龙虾刺身.jpg"; sourceTree = "<group>"; };
+		047893681D3A9E1C00376101 /* 不知年普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "不知年普洱.jpg"; sourceTree = "<group>"; };
+		047893691D3A9E1C00376101 /* 人参乌龙茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "人参乌龙茶.jpg"; sourceTree = "<group>"; };
+		0478936A1D3A9E1C00376101 /* 信阳毛尖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "信阳毛尖.jpg"; sourceTree = "<group>"; };
+		0478936B1D3A9E1C00376101 /* 冻顶乌龙茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "冻顶乌龙茶.jpg"; sourceTree = "<group>"; };
+		0478936C1D3A9E1C00376101 /* 勐海熟饼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "勐海熟饼.jpg"; sourceTree = "<group>"; };
+		0478936D1D3A9E1C00376101 /* 勐海生饼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "勐海生饼.jpg"; sourceTree = "<group>"; };
+		0478936E1D3A9E1C00376101 /* 参赛铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "参赛铁观音.jpg"; sourceTree = "<group>"; };
+		0478936F1D3A9E1C00376101 /* 家藏普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "家藏普洱.jpg"; sourceTree = "<group>"; };
+		047893701D3A9E1C00376101 /* 御品铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "御品铁观音.jpg"; sourceTree = "<group>"; };
+		047893711D3A9E1C00376101 /* 情人玫瑰花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "情人玫瑰花.jpg"; sourceTree = "<group>"; };
+		047893721D3A9E1C00376101 /* 极品铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "极品铁观音.jpg"; sourceTree = "<group>"; };
+		047893731D3A9E1C00376101 /* 武夷山大红袍.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武夷山大红袍.jpg"; sourceTree = "<group>"; };
+		047893741D3A9E1C00376101 /* 武夷山金骏眉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武夷山金骏眉.jpg"; sourceTree = "<group>"; };
+		047893751D3A9E1C00376101 /* 毛尖花茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "毛尖花茶.jpg"; sourceTree = "<group>"; };
+		047893761D3A9E1C00376101 /* 清香铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "清香铁观音.jpg"; sourceTree = "<group>"; };
+		047893771D3A9E1C00376101 /* 狮峰龙井.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狮峰龙井.jpg"; sourceTree = "<group>"; };
+		047893781D3A9E1C00376101 /* 珍藏普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "珍藏普洱.jpg"; sourceTree = "<group>"; };
+		047893791D3A9E1C00376101 /* 粒粒香铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "粒粒香铁观音.jpg"; sourceTree = "<group>"; };
+		0478937A1D3A9E1C00376101 /* 罗汉果凉茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "罗汉果凉茶.jpg"; sourceTree = "<group>"; };
+		0478937B1D3A9E1C00376101 /* 西湖龙井.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西湖龙井.jpg"; sourceTree = "<group>"; };
+		0478937C1D3A9E1C00376101 /* 远年普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "远年普洱.jpg"; sourceTree = "<group>"; };
+		0478937D1D3A9E1C00376101 /* 野生昆仑雪菊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野生昆仑雪菊.jpg"; sourceTree = "<group>"; };
+		0478937E1D3A9E1C00376101 /* 野生溪黄草.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野生溪黄草.jpg"; sourceTree = "<group>"; };
+		0478937F1D3A9E1C00376101 /* 金奖铁观音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金奖铁观音.jpg"; sourceTree = "<group>"; };
+		047893801D3A9E1C00376101 /* 阿里山乌龙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "阿里山乌龙.jpg"; sourceTree = "<group>"; };
+		047893811D3A9E1C00376101 /* 陈年普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈年普洱.jpg"; sourceTree = "<group>"; };
+		047893821D3A9E1C00376101 /* 陈年桔普茶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈年桔普茶.jpg"; sourceTree = "<group>"; };
+		047893831D3A9E1C00376101 /* 陈年生饼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈年生饼.jpg"; sourceTree = "<group>"; };
+		047893841D3A9E1C00376101 /* 陈旧普洱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈旧普洱.jpg"; sourceTree = "<group>"; };
+		047893851D3A9E1C00376101 /* 黄山野生菊花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄山野生菊花.jpg"; sourceTree = "<group>"; };
+		047893871D3A9E1C00376101 /* 五粮液.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "五粮液.jpg"; sourceTree = "<group>"; };
+		047893881D3A9E1C00376101 /* 剑南春.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "剑南春.jpg"; sourceTree = "<group>"; };
+		047893891D3A9E1C00376101 /* 红星.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "红星.jpg"; sourceTree = "<group>"; };
+		0478938A1D3A9E1C00376101 /* 花雕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "花雕.jpg"; sourceTree = "<group>"; };
+		0478938B1D3A9E1C00376101 /* 茅台.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茅台.jpg"; sourceTree = "<group>"; };
+		04C369931D3DAAF6008C2CF5 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		04C369941D3DAAF6008C2CF5 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		04C369951D3DAAF6008C2CF5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		04C369961D3DAAF7008C2CF5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		04C369971D3DAAF7008C2CF5 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		04C369981D3DAAF7008C2CF5 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		04C369991D3DAAF7008C2CF5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		04C3699E1D3DAB0C008C2CF5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		04C369A31D3DAF50008C2CF5 /* MenuDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuDatabase.h; sourceTree = "<group>"; };
+		04C369A41D3DAF50008C2CF5 /* MenuDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuDatabase.m; sourceTree = "<group>"; };
+		04ED40631D3D348A00A93F86 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04ED40641D3D348A00A93F86 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04ED40651D3D348A00A93F86 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		04ED42E41D3D819A00A93F86 /* secendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secendViewController.h; sourceTree = "<group>"; };
+		04ED42E51D3D819A00A93F86 /* secendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secendViewController.m; sourceTree = "<group>"; };
+		04ED42E61D3D819A00A93F86 /* secendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secendViewController.xib; sourceTree = "<group>"; };
+		04ED42F31D3D960F00A93F86 /* menuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuTableViewCell.h; sourceTree = "<group>"; };
+		04ED42F41D3D960F00A93F86 /* menuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuTableViewCell.m; sourceTree = "<group>"; };
+		04ED42F51D3D960F00A93F86 /* menuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuTableViewCell.xib; sourceTree = "<group>"; };
+		04EF67AF1D3EE2C1004C5E3C /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		04EF67B01D3EE2C1004C5E3C /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		04EF67B21D3EF5D1004C5E3C /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		04EF67B31D3EF5D1004C5E3C /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		04F9A23D1D40242400239457 /* XiangQingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiangQingVC.h; sourceTree = "<group>"; };
+		04F9A23E1D40242400239457 /* XiangQingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiangQingVC.m; sourceTree = "<group>"; };
+		04F9A23F1D40242400239457 /* XiangQingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiangQingVC.xib; sourceTree = "<group>"; };
+		04F9A2431D4031E900239457 /* diancaiDatebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diancaiDatebase.h; sourceTree = "<group>"; };
+		04F9A2441D4031E900239457 /* diancaiDatebase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = diancaiDatebase.m; sourceTree = "<group>"; };
+		04F9A2461D4065E300239457 /* MyDianCai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDianCai.h; sourceTree = "<group>"; };
+		04F9A2471D4065E300239457 /* MyDianCai.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDianCai.m; sourceTree = "<group>"; };
+		04F9A2491D40697E00239457 /* MyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderViewController.h; sourceTree = "<group>"; };
+		04F9A24A1D40697E00239457 /* MyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderViewController.m; sourceTree = "<group>"; };
+		04F9A24B1D40697E00239457 /* MyOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
+		04F9A24F1D406B5000239457 /* MyOrderDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderDatabase.h; sourceTree = "<group>"; };
+		04F9A2501D406B5000239457 /* MyOrderDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderDatabase.m; sourceTree = "<group>"; };
+		04F9A2521D406D1000239457 /* MyOrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOrderTableViewCell.h; sourceTree = "<group>"; };
+		04F9A2531D406D1000239457 /* MyOrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOrderTableViewCell.m; sourceTree = "<group>"; };
+		04F9A2541D406D1000239457 /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478924A1D3A9DCB00376101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3699F1D3DAB0C008C2CF5 /* libsqlite3.0.dylib in Frameworks */,
+				047892531D3A9DCB00376101 /* CoreGraphics.framework in Frameworks */,
+				047892551D3A9DCB00376101 /* UIKit.framework in Frameworks */,
+				047892511D3A9DCB00376101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478926B1D3A9DCB00376101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047892701D3A9DCB00376101 /* XCTest.framework in Frameworks */,
+				047892721D3A9DCB00376101 /* UIKit.framework in Frameworks */,
+				047892711D3A9DCB00376101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042995F81D4152E700854C84 /* 送单界面 */ = {
+			isa = PBXGroup;
+			children = (
+				042995F31D4152DB00854C84 /* SongDanVC.h */,
+				042995F41D4152DB00854C84 /* SongDanVC.m */,
+				042995F51D4152DB00854C84 /* SongDanVC.xib */,
+				042995F91D4166AA00854C84 /* ZuoWeiVC.h */,
+				042995FA1D4166AA00854C84 /* ZuoWeiVC.m */,
+				042995FB1D4166AA00854C84 /* ZuoWeiVC.xib */,
+			);
+			name = "送单界面";
+			sourceTree = "<group>";
+		};
+		044F942E1D3AA56600E25F3A /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				047892621D3A9DCB00376101 /* Main.storyboard */,
+				047892651D3A9DCB00376101 /* ViewController.h */,
+				047892661D3A9DCB00376101 /* ViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		044F94371D3AA8F900E25F3A /* 语言选择界面 */ = {
+			isa = PBXGroup;
+			children = (
+				044F94321D3AA5F800E25F3A /* LanguageViewController.h */,
+				044F94331D3AA5F800E25F3A /* LanguageViewController.m */,
+				044F94341D3AA5F800E25F3A /* LanguageViewController.xib */,
+			);
+			name = "语言选择界面";
+			sourceTree = "<group>";
+		};
+		044F943D1D3ABA6700E25F3A /* order菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				044F94381D3AA95400E25F3A /* orderViewController.h */,
+				044F94391D3AA95400E25F3A /* orderViewController.m */,
+				044F943A1D3AA95400E25F3A /* orderViewController.xib */,
+				044F94441D3AC50D00E25F3A /* TableViewCell.h */,
+				044F94451D3AC50D00E25F3A /* TableViewCell.m */,
+				044F94461D3AC50D00E25F3A /* TableViewCell.xib */,
+				04549C1F1D4188910047872C /* 历史界面 */,
+				042995F81D4152E700854C84 /* 送单界面 */,
+				04F9A24E1D40698300239457 /* 我的菜单 */,
+				04F9A2421D40242D00239457 /* 详情 */,
+				04ED42F21D3D95AA00A93F86 /* 主厨推荐 */,
+				04F9A23C1D40231000239457 /* other界面 */,
+			);
+			name = "order菜单";
+			sourceTree = "<group>";
+		};
+		04549C1F1D4188910047872C /* 历史界面 */ = {
+			isa = PBXGroup;
+			children = (
+				04549C0E1D417E7C0047872C /* LiShiVC.h */,
+				04549C0F1D417E7C0047872C /* LiShiVC.m */,
+				04549C101D417E7C0047872C /* LiShiVC.xib */,
+				04549C201D41A4DA0047872C /* LSVCCell.h */,
+				04549C211D41A4DA0047872C /* LSVCCell.m */,
+				04549C221D41A4DA0047872C /* LSVCCell.xib */,
+				04549C2F1D41DAF60047872C /* ChaXunVC.h */,
+				04549C301D41DAF60047872C /* ChaXunVC.m */,
+				04549C311D41DAF60047872C /* ChaXunVC.xib */,
+			);
+			name = "历史界面";
+			sourceTree = "<group>";
+		};
+		047892441D3A9DCB00376101 = {
+			isa = PBXGroup;
+			children = (
+				04C369921D3DAAF6008C2CF5 /* FMDB */,
+				047892851D3A9E1C00376101 /* database.sqlite */,
+				047892861D3A9E1C00376101 /* image */,
+				047892561D3A9DCB00376101 /* OrderDish */,
+				047892751D3A9DCB00376101 /* OrderDishTests */,
+				0478924F1D3A9DCB00376101 /* Frameworks */,
+				0478924E1D3A9DCB00376101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0478924E1D3A9DCB00376101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478924D1D3A9DCB00376101 /* OrderDish.app */,
+				0478926E1D3A9DCB00376101 /* OrderDishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0478924F1D3A9DCB00376101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C3699E1D3DAB0C008C2CF5 /* libsqlite3.0.dylib */,
+				047892501D3A9DCB00376101 /* Foundation.framework */,
+				047892521D3A9DCB00376101 /* CoreGraphics.framework */,
+				047892541D3A9DCB00376101 /* UIKit.framework */,
+				0478926F1D3A9DCB00376101 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		047892561D3A9DCB00376101 /* OrderDish */ = {
+			isa = PBXGroup;
+			children = (
+				0478925F1D3A9DCB00376101 /* AppDelegate.h */,
+				047892601D3A9DCB00376101 /* AppDelegate.m */,
+				04F7EE361D429D500082981D /* 模型 */,
+				04F7EE371D429D5F0082981D /* 数据库 */,
+				044F943D1D3ABA6700E25F3A /* order菜单 */,
+				044F94371D3AA8F900E25F3A /* 语言选择界面 */,
+				044F942E1D3AA56600E25F3A /* 首页 */,
+				047892681D3A9DCB00376101 /* Images.xcassets */,
+				047892571D3A9DCB00376101 /* Supporting Files */,
+			);
+			path = OrderDish;
+			sourceTree = "<group>";
+		};
+		047892571D3A9DCB00376101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047892581D3A9DCB00376101 /* OrderDish-Info.plist */,
+				047892591D3A9DCB00376101 /* InfoPlist.strings */,
+				0478925C1D3A9DCB00376101 /* main.m */,
+				0478925E1D3A9DCB00376101 /* OrderDish-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047892751D3A9DCB00376101 /* OrderDishTests */ = {
+			isa = PBXGroup;
+			children = (
+				0478927B1D3A9DCB00376101 /* OrderDishTests.m */,
+				047892761D3A9DCB00376101 /* Supporting Files */,
+			);
+			path = OrderDishTests;
+			sourceTree = "<group>";
+		};
+		047892761D3A9DCB00376101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047892771D3A9DCB00376101 /* OrderDishTests-Info.plist */,
+				047892781D3A9DCB00376101 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		047892861D3A9E1C00376101 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				047892871D3A9E1C00376101 /* 01.png */,
+				047892881D3A9E1C00376101 /* 02.png */,
+				047892891D3A9E1C00376101 /* bg3.png */,
+				0478928A1D3A9E1C00376101 /* bgp1.jpg */,
+				0478928B1D3A9E1C00376101 /* bgp3.png */,
+				0478928C1D3A9E1C00376101 /* bgp31.png */,
+				0478928D1D3A9E1C00376101 /* bgp33.png */,
+				0478928E1D3A9E1C00376101 /* bgp4.png */,
+				0478928F1D3A9E1C00376101 /* bgp41.png */,
+				047892901D3A9E1C00376101 /* bgp5.png */,
+				047892911D3A9E1C00376101 /* bgp6.jpg */,
+				047892921D3A9E1C00376101 /* bgp6.png */,
+				047892931D3A9E1C00376101 /* bgp8.png */,
+				047892941D3A9E1C00376101 /* bgp81.png */,
+				047892951D3A9E1C00376101 /* bgpp2.jpg */,
+				047892961D3A9E1C00376101 /* blue.png */,
+				047892971D3A9E1C00376101 /* btnBG.png */,
+				047892981D3A9E1C00376101 /* cai */,
+				047892A01D3A9E1C00376101 /* chinese.png */,
+				047892A11D3A9E1C00376101 /* cwxz.png */,
+				047892A21D3A9E1C00376101 /* dlbg.png */,
+				047892A31D3A9E1C00376101 /* english.png */,
+				047892A41D3A9E1C00376101 /* exit.png */,
+				047892A51D3A9E1C00376101 /* guangyun.png */,
+				047892A61D3A9E1C00376101 /* hchinese.png */,
+				047892A71D3A9E1C00376101 /* henglish.png */,
+				047892A81D3A9E1C00376101 /* hrbg.png */,
+				047892A91D3A9E1C00376101 /* line31.png */,
+				047892AA1D3A9E1C00376101 /* line32.png */,
+				047892AB1D3A9E1C00376101 /* line33.png */,
+				047892AC1D3A9E1C00376101 /* logo.png */,
+				047892AD1D3A9E1C00376101 /* main.png */,
+				047892AE1D3A9E1C00376101 /* menu */,
+				047892D31D3A9E1C00376101 /* myorder.png */,
+				047892D41D3A9E1C00376101 /* p1.jpg */,
+				047892D51D3A9E1C00376101 /* p2.jpg */,
+				047892D61D3A9E1C00376101 /* p61.png */,
+				047892D71D3A9E1C00376101 /* pg80.jpg */,
+				047892D81D3A9E1C00376101 /* remark.png */,
+				047892D91D3A9E1C00376101 /* res.jpg */,
+				047892DA1D3A9E1C00376101 /* sanjiao.png */,
+				047892DB1D3A9E1C00376101 /* sdbtn2.png */,
+				047892DC1D3A9E1C00376101 /* shuzitubiao */,
+				047892E71D3A9E1C00376101 /* splitLine.png */,
+				047892E81D3A9E1C00376101 /* tabbg.png */,
+				047892E91D3A9E1C00376101 /* 主厨推荐jpg */,
+				047892FA1D3A9E1C00376101 /* 主厨推荐PNG */,
+				0478930B1D3A9E1C00376101 /* 其他菜图片 */,
+				047893671D3A9E1C00376101 /* 茶 */,
+				047893861D3A9E1C00376101 /* 酒水 */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		047892981D3A9E1C00376101 /* cai */ = {
+			isa = PBXGroup;
+			children = (
+				047892991D3A9E1C00376101 /* 1.jpg */,
+				0478929A1D3A9E1C00376101 /* 2.jpg */,
+				0478929B1D3A9E1C00376101 /* 3.jpg */,
+				0478929C1D3A9E1C00376101 /* 4.jpg */,
+				0478929D1D3A9E1C00376101 /* 5.jpg */,
+				0478929E1D3A9E1C00376101 /* 6.jpg */,
+				0478929F1D3A9E1C00376101 /* 7.jpg */,
+			);
+			path = cai;
+			sourceTree = "<group>";
+		};
+		047892AE1D3A9E1C00376101 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				047892AF1D3A9E1C00376101 /* 2icon.png */,
+				047892B01D3A9E1C00376101 /* 3icon.png */,
+				047892B11D3A9E1C00376101 /* 4icon.png */,
+				047892B21D3A9E1C00376101 /* 5icon.png */,
+				047892B31D3A9E1C00376101 /* 6icon.png */,
+				047892B41D3A9E1C00376101 /* 7icon.png */,
+				047892B51D3A9E1C00376101 /* addbtn.png */,
+				047892B61D3A9E1C00376101 /* bzbtn.png */,
+				047892B81D3A9E1C00376101 /* cude.png */,
+				047892B91D3A9E1C00376101 /* dcbtn.png */,
+				047892BF1D3A9E1C00376101 /* 0_s.png */,
+				047892D11D3A9E1C00376101 /* 0_n.png */,
+				047892BA1D3A9E1C00376101 /* 1_s.png */,
+				047892B71D3A9E1C00376101 /* 1_n.png */,
+				047892BC1D3A9E1C00376101 /* 2_s.png */,
+				047892C31D3A9E1C00376101 /* 2_n.png */,
+				047892BD1D3A9E1C00376101 /* 3_s.png */,
+				047892C51D3A9E1C00376101 /* 3_n.png */,
+				047892BE1D3A9E1C00376101 /* 4_s.png */,
+				047892CC1D3A9E1C00376101 /* 4_n.png */,
+				047892C11D3A9E1C00376101 /* 5_s.png */,
+				047892D21D3A9E1C00376101 /* 5_n.png */,
+				047892BB1D3A9E1C00376101 /* 6_s.png */,
+				047892C21D3A9E1C00376101 /* 6_n.png */,
+				047892C01D3A9E1C00376101 /* hzong.png */,
+				047892C41D3A9E1C00376101 /* qcbtn.png */,
+				047892C61D3A9E1C00376101 /* reducebtn.png */,
+				047892C71D3A9E1C00376101 /* return.png */,
+				047892C81D3A9E1C00376101 /* sd1.png */,
+				047892C91D3A9E1C00376101 /* sd2.png */,
+				047892CA1D3A9E1C00376101 /* sd3.png */,
+				047892CB1D3A9E1C00376101 /* sdbtn.png */,
+				047892CD1D3A9E1C00376101 /* xqbtn.png */,
+				047892CE1D3A9E1C00376101 /* ysdicon.png */,
+				047892CF1D3A9E1C00376101 /* yszicon.png */,
+				047892D01D3A9E1C00376101 /* yticon.png */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		047892DC1D3A9E1C00376101 /* shuzitubiao */ = {
+			isa = PBXGroup;
+			children = (
+				047892DD1D3A9E1C00376101 /* 1.png */,
+				047892DE1D3A9E1C00376101 /* 2.png */,
+				047892DF1D3A9E1C00376101 /* 3.png */,
+				047892E01D3A9E1C00376101 /* 4.png */,
+				047892E11D3A9E1C00376101 /* 5.png */,
+				047892E21D3A9E1C00376101 /* 6.png */,
+				047892E31D3A9E1C00376101 /* 7.png */,
+				047892E41D3A9E1C00376101 /* 8.png */,
+				047892E51D3A9E1C00376101 /* 9.png */,
+				047892E61D3A9E1C00376101 /* tap.png */,
+			);
+			path = shuzitubiao;
+			sourceTree = "<group>";
+		};
+		047892E91D3A9E1C00376101 /* 主厨推荐jpg */ = {
+			isa = PBXGroup;
+			children = (
+				047892EA1D3A9E1C00376101 /* 两葱爆海参.jpg */,
+				047892EB1D3A9E1C00376101 /* 五谷煮海参.jpg */,
+				047892EC1D3A9E1C00376101 /* 南非网鲍(12头).jpg */,
+				047892ED1D3A9E1C00376101 /* 南非网鲍(14头).jpg */,
+				047892EE1D3A9E1C00376101 /* 南非网鲍(8头).jpg */,
+				047892EF1D3A9E1C00376101 /* 印尼官燕.jpg */,
+				047892F01D3A9E1C00376101 /* 堂做印尼燕窝粥.jpg */,
+				047892F11D3A9E1C00376101 /* 极品吉品鲍(18头).jpg */,
+				047892F21D3A9E1C00376101 /* 极品吉品鲍(20头).jpg */,
+				047892F31D3A9E1C00376101 /* 极品吉品鲍(24头).jpg */,
+				047892F41D3A9E1C00376101 /* 牙拣翅.jpg */,
+				047892F51D3A9E1C00376101 /* 粗针翅.jpg */,
+				047892F61D3A9E1C00376101 /* 金勾翅.jpg */,
+				047892F71D3A9E1C00376101 /* 金山广肚公.jpg */,
+				047892F81D3A9E1C00376101 /* 鲍汁扣辽参.jpg */,
+				047892F91D3A9E1C00376101 /* 鸭汁葱烧辽参.jpg */,
+			);
+			path = "主厨推荐jpg";
+			sourceTree = "<group>";
+		};
+		047892FA1D3A9E1C00376101 /* 主厨推荐PNG */ = {
+			isa = PBXGroup;
+			children = (
+				047892FB1D3A9E1C00376101 /* 两葱爆海参.png */,
+				047892FC1D3A9E1C00376101 /* 五谷煮海参.png */,
+				047892FD1D3A9E1C00376101 /* 南非网鲍(12头).png */,
+				047892FE1D3A9E1C00376101 /* 南非网鲍(14头).png */,
+				047892FF1D3A9E1C00376101 /* 南非网鲍(8头).png */,
+				047893001D3A9E1C00376101 /* 印尼官燕.png */,
+				047893011D3A9E1C00376101 /* 堂做印尼燕窝粥.png */,
+				047893021D3A9E1C00376101 /* 极品吉品鲍(18头).png */,
+				047893031D3A9E1C00376101 /* 极品吉品鲍(20头).png */,
+				047893041D3A9E1C00376101 /* 极品吉品鲍(24头).png */,
+				047893051D3A9E1C00376101 /* 牙拣翅.png */,
+				047893061D3A9E1C00376101 /* 粗针翅.png */,
+				047893071D3A9E1C00376101 /* 金勾翅.png */,
+				047893081D3A9E1C00376101 /* 金山广肚公.png */,
+				047893091D3A9E1C00376101 /* 鲍汁扣辽参.png */,
+				0478930A1D3A9E1C00376101 /* 鸭汁葱烧辽参.png */,
+			);
+			path = "主厨推荐PNG";
+			sourceTree = "<group>";
+		};
+		0478930B1D3A9E1C00376101 /* 其他菜图片 */ = {
+			isa = PBXGroup;
+			children = (
+				0478930C1D3A9E1C00376101 /* 4GS2_2ZS_dfx_10.jpg */,
+				0478930D1D3A9E1C00376101 /* 七彩南瓜果.jpg */,
+				0478930E1D3A9E1C00376101 /* 三文鱼腩.jpg */,
+				0478930F1D3A9E1C00376101 /* 上汤龙虾.jpg */,
+				047893101D3A9E1C00376101 /* 佛跳墙.jpg */,
+				047893111D3A9E1C00376101 /* 像生枣泥糕.jpg */,
+				047893121D3A9E1C00376101 /* 像生核桃果.jpg */,
+				047893131D3A9E1C00376101 /* 养生杞子银杏炒百合.jpg */,
+				047893141D3A9E1C00376101 /* 凉瓜青灼雪花牛肉.jpg */,
+				047893151D3A9E1C00376101 /* 北极贝.jpg */,
+				047893161D3A9E1C00376101 /* 南瓜淮山煮鲜茨实.jpg */,
+				047893171D3A9E1C00376101 /* 卤水拼盘.jpg */,
+				047893181D3A9E1C00376101 /* 卤水腩肉.jpg */,
+				047893191D3A9E1C00376101 /* 卤水鹅掌.jpg */,
+				0478931A1D3A9E1C00376101 /* 卤水鹅翼.jpg */,
+				0478931B1D3A9E1C00376101 /* 卤水鹅肝.jpg */,
+				0478931C1D3A9E1C00376101 /* 厚煎顶级雪花牛肉.jpg */,
+				0478931D1D3A9E1C00376101 /* 原之木瓜炖雪蛤.jpg */,
+				0478931E1D3A9E1C00376101 /* 原只番茄丄素珍.jpg */,
+				0478931F1D3A9E1C00376101 /* 叉烧.jpg */,
+				047893201D3A9E1C00376101 /* 和风钻石拼.jpg */,
+				047893211D3A9E1C00376101 /* 城南盐烧发财手.jpg */,
+				047893221D3A9E1C00376101 /* 堂煎安格斯牛仔骨.jpg */,
+				047893231D3A9E1C00376101 /* 多宝鱼两食.jpg */,
+				047893241D3A9E1C00376101 /* 大厨炒饭.jpg */,
+				047893251D3A9E1C00376101 /* 头抽虎皮尖椒.jpg */,
+				047893261D3A9E1C00376101 /* 头抽豉油鸡.jpg */,
+				047893271D3A9E1C00376101 /* 奶沙紫薯果.jpg */,
+				047893281D3A9E1C00376101 /* 宴汇好味骨.jpg */,
+				047893291D3A9E1C00376101 /* 家乡葱油饼.jpg */,
+				0478932A1D3A9E1C00376101 /* 挪威三文鱼.png */,
+				0478932B1D3A9E1C00376101 /* 日式冻鹅肝.jpg */,
+				0478932C1D3A9E1C00376101 /* 杏汁燕窝奶挞.jpg */,
+				0478932D1D3A9E1C00376101 /* 杜阮凉瓜焖龙趸.jpg */,
+				0478932E1D3A9E1C00376101 /* 果仁鸳鸯虾球.jpg */,
+				0478932F1D3A9E1C00376101 /* 桂花炒鱼肚.jpg */,
+				047893301D3A9E1C00376101 /* 法式吉斯拉包.jpg */,
+				047893311D3A9E1C00376101 /* 海南文昌鸡.jpg */,
+				047893321D3A9E1C00376101 /* 海皇三鲜煎面.jpg */,
+				047893331D3A9E1C00376101 /* 海皇极品炒粉丝.jpg */,
+				047893341D3A9E1C00376101 /* 深海金枪鱼.jpg */,
+				047893351D3A9E1C00376101 /* 潮式煲大连鲍.jpg */,
+				047893361D3A9E1C00376101 /* 潮式煲大连鲍1.jpg */,
+				047893371D3A9E1C00376101 /* 潮式胜瓜煮鱼肚.jpg */,
+				047893381D3A9E1C00376101 /* 烧肉.jpg */,
+				047893391D3A9E1C00376101 /* 烧鹅.jpg */,
+				0478933A1D3A9E1C00376101 /* 珍菌炒石燕.jpg */,
+				0478933B1D3A9E1C00376101 /* 琼山龙虾仔.jpg */,
+				0478933C1D3A9E1C00376101 /* 瓦礃沙姜浸东星.jpg */,
+				0478933D1D3A9E1C00376101 /* 白切鸡海南文昌鸡.jpg */,
+				0478933E1D3A9E1C00376101 /* 秘制卤水鹅头.jpg */,
+				0478933F1D3A9E1C00376101 /* 秘制海豹蛇.jpg */,
+				047893401D3A9E1C00376101 /* 竹上素仙.jpg */,
+				047893411D3A9E1C00376101 /* 美极腊鸭舌.jpg */,
+				047893421D3A9E1C00376101 /* 翠叠百灵鳄.jpg */,
+				047893431D3A9E1C00376101 /* 翠堂菜拼金钱袋.jpg */,
+				047893441D3A9E1C00376101 /* 肉汁炖虫草.jpg */,
+				047893451D3A9E1C00376101 /* 荷塘映月.jpg */,
+				047893461D3A9E1C00376101 /* 菜远炒牛奶.jpg */,
+				047893471D3A9E1C00376101 /* 葱汁乳香肉.jpg */,
+				047893481D3A9E1C00376101 /* 葵花吐艳.jpg */,
+				047893491D3A9E1C00376101 /* 蒜香雪花牛仔粒.jpg */,
+				0478934A1D3A9E1C00376101 /* 虾头酱粉丝煲.jpg */,
+				0478934B1D3A9E1C00376101 /* 螺片捞手撕鸡.jpg */,
+				0478934C1D3A9E1C00376101 /* 螺片捞手撕鸡1.jpg */,
+				0478934D1D3A9E1C00376101 /* 西班牙火腿拼俄罗斯墨鱼子.jpg */,
+				0478934E1D3A9E1C00376101 /* 象拔蚌刺身.jpg */,
+				0478934F1D3A9E1C00376101 /* 野生水鱼焖鲍鱼鸡.jpg */,
+				047893501D3A9E1C00376101 /* 金奖天鹅酥.jpg */,
+				047893511D3A9E1C00376101 /* 金奖鳗鱼酥.jpg */,
+				047893521D3A9E1C00376101 /* 金虫草花藕条炒海参.jpg */,
+				047893531D3A9E1C00376101 /* 金虫草藕条炒海参.jpg */,
+				047893541D3A9E1C00376101 /* 铁板鹅肝粒炒饭.jpg */,
+				047893551D3A9E1C00376101 /* 韭王鲜冬菇炒双脆.jpg */,
+				047893561D3A9E1C00376101 /* 韭菜花炒福果曹虾.jpg */,
+				047893571D3A9E1C00376101 /* 香煎东星扒.jpg */,
+				047893581D3A9E1C00376101 /* 香煎大虾.jpg */,
+				047893591D3A9E1C00376101 /* 香煎黄花鱼.jpg */,
+				0478935A1D3A9E1C00376101 /* 香葱煎焗菜包.jpg */,
+				0478935B1D3A9E1C00376101 /* 马友蒸开刀东星.jpg */,
+				0478935C1D3A9E1C00376101 /* 鱼汤米线.jpg */,
+				0478935D1D3A9E1C00376101 /* 鱼肚肘子浸娃娃菜.jpg */,
+				0478935E1D3A9E1C00376101 /* 鲍鱼粒泡饭.jpg */,
+				0478935F1D3A9E1C00376101 /* 鲜茄蛋汤手擀面.jpg */,
+				047893601D3A9E1C00376101 /* 鸿运全体金猪.jpg */,
+				047893611D3A9E1C00376101 /* 黄豆酱番茄焗银鳕鱼.jpg */,
+				047893621D3A9E1C00376101 /* 黑松露七骨扒.jpg */,
+				047893631D3A9E1C00376101 /* 黑椒T骨扒.jpg */,
+				047893641D3A9E1C00376101 /* 黑醋法国鹅肝.jpg */,
+				047893651D3A9E1C00376101 /* 黑金山雀炖海参.jpg */,
+				047893661D3A9E1C00376101 /* 龙虾刺身.jpg */,
+			);
+			path = "其他菜图片";
+			sourceTree = "<group>";
+		};
+		047893671D3A9E1C00376101 /* 茶 */ = {
+			isa = PBXGroup;
+			children = (
+				047893681D3A9E1C00376101 /* 不知年普洱.jpg */,
+				047893691D3A9E1C00376101 /* 人参乌龙茶.jpg */,
+				0478936A1D3A9E1C00376101 /* 信阳毛尖.jpg */,
+				0478936B1D3A9E1C00376101 /* 冻顶乌龙茶.jpg */,
+				0478936C1D3A9E1C00376101 /* 勐海熟饼.jpg */,
+				0478936D1D3A9E1C00376101 /* 勐海生饼.jpg */,
+				0478936E1D3A9E1C00376101 /* 参赛铁观音.jpg */,
+				0478936F1D3A9E1C00376101 /* 家藏普洱.jpg */,
+				047893701D3A9E1C00376101 /* 御品铁观音.jpg */,
+				047893711D3A9E1C00376101 /* 情人玫瑰花.jpg */,
+				047893721D3A9E1C00376101 /* 极品铁观音.jpg */,
+				047893731D3A9E1C00376101 /* 武夷山大红袍.jpg */,
+				047893741D3A9E1C00376101 /* 武夷山金骏眉.jpg */,
+				047893751D3A9E1C00376101 /* 毛尖花茶.jpg */,
+				047893761D3A9E1C00376101 /* 清香铁观音.jpg */,
+				047893771D3A9E1C00376101 /* 狮峰龙井.jpg */,
+				047893781D3A9E1C00376101 /* 珍藏普洱.jpg */,
+				047893791D3A9E1C00376101 /* 粒粒香铁观音.jpg */,
+				0478937A1D3A9E1C00376101 /* 罗汉果凉茶.jpg */,
+				0478937B1D3A9E1C00376101 /* 西湖龙井.jpg */,
+				0478937C1D3A9E1C00376101 /* 远年普洱.jpg */,
+				0478937D1D3A9E1C00376101 /* 野生昆仑雪菊.jpg */,
+				0478937E1D3A9E1C00376101 /* 野生溪黄草.jpg */,
+				0478937F1D3A9E1C00376101 /* 金奖铁观音.jpg */,
+				047893801D3A9E1C00376101 /* 阿里山乌龙.jpg */,
+				047893811D3A9E1C00376101 /* 陈年普洱.jpg */,
+				047893821D3A9E1C00376101 /* 陈年桔普茶.jpg */,
+				047893831D3A9E1C00376101 /* 陈年生饼.jpg */,
+				047893841D3A9E1C00376101 /* 陈旧普洱.jpg */,
+				047893851D3A9E1C00376101 /* 黄山野生菊花.jpg */,
+			);
+			path = "茶";
+			sourceTree = "<group>";
+		};
+		047893861D3A9E1C00376101 /* 酒水 */ = {
+			isa = PBXGroup;
+			children = (
+				047893871D3A9E1C00376101 /* 五粮液.jpg */,
+				047893881D3A9E1C00376101 /* 剑南春.jpg */,
+				047893891D3A9E1C00376101 /* 红星.jpg */,
+				0478938A1D3A9E1C00376101 /* 花雕.jpg */,
+				0478938B1D3A9E1C00376101 /* 茅台.jpg */,
+			);
+			path = "酒水";
+			sourceTree = "<group>";
+		};
+		04C369921D3DAAF6008C2CF5 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				04C369931D3DAAF6008C2CF5 /* FMDatabase.h */,
+				04C369941D3DAAF6008C2CF5 /* FMDatabase.m */,
+				04C369951D3DAAF6008C2CF5 /* FMDatabaseAdditions.h */,
+				04C369961D3DAAF7008C2CF5 /* FMDatabaseAdditions.m */,
+				04C369971D3DAAF7008C2CF5 /* FMResultSet.h */,
+				04C369981D3DAAF7008C2CF5 /* FMResultSet.m */,
+				04C369991D3DAAF7008C2CF5 /* LICENSE.txt */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		04ED42F21D3D95AA00A93F86 /* 主厨推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				04ED40631D3D348A00A93F86 /* FirstViewController.h */,
+				04ED40641D3D348A00A93F86 /* FirstViewController.m */,
+				04ED40651D3D348A00A93F86 /* FirstViewController.xib */,
+				04EF67B21D3EF5D1004C5E3C /* ImageScrollView.h */,
+				04EF67B31D3EF5D1004C5E3C /* ImageScrollView.m */,
+				04ED42F31D3D960F00A93F86 /* menuTableViewCell.h */,
+				04ED42F41D3D960F00A93F86 /* menuTableViewCell.m */,
+				04ED42F51D3D960F00A93F86 /* menuTableViewCell.xib */,
+			);
+			name = "主厨推荐";
+			sourceTree = "<group>";
+		};
+		04F7EE361D429D500082981D /* 模型 */ = {
+			isa = PBXGroup;
+			children = (
+				04EF67AF1D3EE2C1004C5E3C /* Group.h */,
+				04EF67B01D3EE2C1004C5E3C /* Group.m */,
+				04F9A2461D4065E300239457 /* MyDianCai.h */,
+				04F9A2471D4065E300239457 /* MyDianCai.m */,
+				04549C1C1D41816C0047872C /* recordTable.h */,
+				04549C1D1D41816C0047872C /* recordTable.m */,
+				04549C191D4181570047872C /* room_recordTable.h */,
+				04549C1A1D4181570047872C /* room_recordTable.m */,
+			);
+			name = "模型";
+			sourceTree = "<group>";
+		};
+		04F7EE371D429D5F0082981D /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				04C369A31D3DAF50008C2CF5 /* MenuDatabase.h */,
+				04C369A41D3DAF50008C2CF5 /* MenuDatabase.m */,
+				04F9A2431D4031E900239457 /* diancaiDatebase.h */,
+				04F9A2441D4031E900239457 /* diancaiDatebase.m */,
+				04F9A24F1D406B5000239457 /* MyOrderDatabase.h */,
+				04F9A2501D406B5000239457 /* MyOrderDatabase.m */,
+				04549C131D4181210047872C /* recordTableDatebase.h */,
+				04549C141D4181210047872C /* recordTableDatebase.m */,
+				04549C161D4181420047872C /* room_recordTableDatebase.h */,
+				04549C171D4181420047872C /* room_recordTableDatebase.m */,
+			);
+			name = "数据库";
+			sourceTree = "<group>";
+		};
+		04F9A23C1D40231000239457 /* other界面 */ = {
+			isa = PBXGroup;
+			children = (
+				04ED42E41D3D819A00A93F86 /* secendViewController.h */,
+				04ED42E51D3D819A00A93F86 /* secendViewController.m */,
+				04ED42E61D3D819A00A93F86 /* secendViewController.xib */,
+			);
+			name = "other界面";
+			sourceTree = "<group>";
+		};
+		04F9A2421D40242D00239457 /* 详情 */ = {
+			isa = PBXGroup;
+			children = (
+				04F9A23D1D40242400239457 /* XiangQingVC.h */,
+				04F9A23E1D40242400239457 /* XiangQingVC.m */,
+				04F9A23F1D40242400239457 /* XiangQingVC.xib */,
+			);
+			name = "详情";
+			sourceTree = "<group>";
+		};
+		04F9A24E1D40698300239457 /* 我的菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				04F9A2491D40697E00239457 /* MyOrderViewController.h */,
+				04F9A24A1D40697E00239457 /* MyOrderViewController.m */,
+				04F9A24B1D40697E00239457 /* MyOrderViewController.xib */,
+				04F9A2521D406D1000239457 /* MyOrderTableViewCell.h */,
+				04F9A2531D406D1000239457 /* MyOrderTableViewCell.m */,
+				04F9A2541D406D1000239457 /* MyOrderTableViewCell.xib */,
+			);
+			name = "我的菜单";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0478924C1D3A9DCB00376101 /* OrderDish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478927F1D3A9DCB00376101 /* Build configuration list for PBXNativeTarget "OrderDish" */;
+			buildPhases = (
+				047892491D3A9DCB00376101 /* Sources */,
+				0478924A1D3A9DCB00376101 /* Frameworks */,
+				0478924B1D3A9DCB00376101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderDish;
+			productName = OrderDish;
+			productReference = 0478924D1D3A9DCB00376101 /* OrderDish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0478926D1D3A9DCB00376101 /* OrderDishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047892821D3A9DCB00376101 /* Build configuration list for PBXNativeTarget "OrderDishTests" */;
+			buildPhases = (
+				0478926A1D3A9DCB00376101 /* Sources */,
+				0478926B1D3A9DCB00376101 /* Frameworks */,
+				0478926C1D3A9DCB00376101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047892741D3A9DCB00376101 /* PBXTargetDependency */,
+			);
+			name = OrderDishTests;
+			productName = OrderDishTests;
+			productReference = 0478926E1D3A9DCB00376101 /* OrderDishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047892451D3A9DCB00376101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "刘文海";
+				TargetAttributes = {
+					0478926D1D3A9DCB00376101 = {
+						TestTargetID = 0478924C1D3A9DCB00376101;
+					};
+				};
+			};
+			buildConfigurationList = 047892481D3A9DCB00376101 /* Build configuration list for PBXProject "OrderDish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047892441D3A9DCB00376101;
+			productRefGroup = 0478924E1D3A9DCB00376101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0478924C1D3A9DCB00376101 /* OrderDish */,
+				0478926D1D3A9DCB00376101 /* OrderDishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478924B1D3A9DCB00376101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047893C91D3A9E1C00376101 /* 3_n.png in Resources */,
+				047894471D3A9E1C00376101 /* 葱汁乳香肉.jpg in Resources */,
+				047893A31D3A9E1C00376101 /* 6.jpg in Resources */,
+				047893FF1D3A9E1C00376101 /* 南非网鲍(14头).png in Resources */,
+				0478944B1D3A9E1C00376101 /* 螺片捞手撕鸡.jpg in Resources */,
+				0478941C1D3A9E1C00376101 /* 厚煎顶级雪花牛肉.jpg in Resources */,
+				047893AC1D3A9E1C00376101 /* henglish.png in Resources */,
+				047894381D3A9E1C00376101 /* 烧肉.jpg in Resources */,
+				047894531D3A9E1C00376101 /* 金虫草藕条炒海参.jpg in Resources */,
+				0478939A1D3A9E1C00376101 /* bgp81.png in Resources */,
+				047894141D3A9E1C00376101 /* 凉瓜青灼雪花牛肉.jpg in Resources */,
+				047893BB1D3A9E1C00376101 /* 1_n.png in Resources */,
+				047894691D3A9E1C00376101 /* 信阳毛尖.jpg in Resources */,
+				047894891D3A9E1C00376101 /* 茅台.jpg in Resources */,
+				0478946C1D3A9E1C00376101 /* 勐海生饼.jpg in Resources */,
+				0478943B1D3A9E1C00376101 /* 琼山龙虾仔.jpg in Resources */,
+				047894161D3A9E1C00376101 /* 南瓜淮山煮鲜茨实.jpg in Resources */,
+				0478938D1D3A9E1C00376101 /* 01.png in Resources */,
+				0478942D1D3A9E1C00376101 /* 杜阮凉瓜焖龙趸.jpg in Resources */,
+				047893B91D3A9E1C00376101 /* addbtn.png in Resources */,
+				047893B11D3A9E1C00376101 /* logo.png in Resources */,
+				047894201D3A9E1C00376101 /* 和风钻石拼.jpg in Resources */,
+				047894241D3A9E1C00376101 /* 大厨炒饭.jpg in Resources */,
+				0478942E1D3A9E1C00376101 /* 果仁鸳鸯虾球.jpg in Resources */,
+				047894571D3A9E1C00376101 /* 香煎东星扒.jpg in Resources */,
+				04F9A24D1D40697E00239457 /* MyOrderViewController.xib in Resources */,
+				047893A41D3A9E1C00376101 /* 7.jpg in Resources */,
+				047894871D3A9E1C00376101 /* 红星.jpg in Resources */,
+				047894851D3A9E1C00376101 /* 五粮液.jpg in Resources */,
+				047894551D3A9E1C00376101 /* 韭王鲜冬菇炒双脆.jpg in Resources */,
+				047893971D3A9E1C00376101 /* bgp6.jpg in Resources */,
+				047894051D3A9E1C00376101 /* 极品吉品鲍(24头).png in Resources */,
+				047894391D3A9E1C00376101 /* 烧鹅.jpg in Resources */,
+				0478942B1D3A9E1C00376101 /* 日式冻鹅肝.jpg in Resources */,
+				047893B71D3A9E1C00376101 /* 6icon.png in Resources */,
+				047893DC1D3A9E1C00376101 /* remark.png in Resources */,
+				047894271D3A9E1C00376101 /* 奶沙紫薯果.jpg in Resources */,
+				0478941A1D3A9E1C00376101 /* 卤水鹅翼.jpg in Resources */,
+				047894091D3A9E1C00376101 /* 金山广肚公.png in Resources */,
+				047894081D3A9E1C00376101 /* 金勾翅.png in Resources */,
+				047893B31D3A9E1C00376101 /* 2icon.png in Resources */,
+				047893DE1D3A9E1C00376101 /* sanjiao.png in Resources */,
+				047893921D3A9E1C00376101 /* bgp31.png in Resources */,
+				047893F61D3A9E1C00376101 /* 牙拣翅.jpg in Resources */,
+				04549C241D41A4DA0047872C /* LSVCCell.xib in Resources */,
+				04549C331D41DAF60047872C /* ChaXunVC.xib in Resources */,
+				047893C31D3A9E1C00376101 /* 0_s.png in Resources */,
+				047893B21D3A9E1C00376101 /* main.png in Resources */,
+				047894371D3A9E1C00376101 /* 潮式胜瓜煮鱼肚.jpg in Resources */,
+				047893901D3A9E1C00376101 /* bgp1.jpg in Resources */,
+				047894061D3A9E1C00376101 /* 牙拣翅.png in Resources */,
+				0478946B1D3A9E1C00376101 /* 勐海熟饼.jpg in Resources */,
+				047893C61D3A9E1C00376101 /* 6_n.png in Resources */,
+				044F94361D3AA5F800E25F3A /* LanguageViewController.xib in Resources */,
+				047893AA1D3A9E1C00376101 /* guangyun.png in Resources */,
+				047894501D3A9E1C00376101 /* 金奖天鹅酥.jpg in Resources */,
+				047893F71D3A9E1C00376101 /* 粗针翅.jpg in Resources */,
+				047893E11D3A9E1C00376101 /* 2.png in Resources */,
+				047893CD1D3A9E1C00376101 /* sd2.png in Resources */,
+				047893CC1D3A9E1C00376101 /* sd1.png in Resources */,
+				047893EE1D3A9E1C00376101 /* 南非网鲍(12头).jpg in Resources */,
+				047894181D3A9E1C00376101 /* 卤水腩肉.jpg in Resources */,
+				0478939D1D3A9E1C00376101 /* btnBG.png in Resources */,
+				04F9A2411D40242400239457 /* XiangQingVC.xib in Resources */,
+				0478946A1D3A9E1C00376101 /* 冻顶乌龙茶.jpg in Resources */,
+				047893F31D3A9E1C00376101 /* 极品吉品鲍(18头).jpg in Resources */,
+				047893A81D3A9E1C00376101 /* english.png in Resources */,
+				047893E41D3A9E1C00376101 /* 5.png in Resources */,
+				047894281D3A9E1C00376101 /* 宴汇好味骨.jpg in Resources */,
+				047893C01D3A9E1C00376101 /* 2_s.png in Resources */,
+				047893D71D3A9E1C00376101 /* myorder.png in Resources */,
+				047893EC1D3A9E1C00376101 /* 两葱爆海参.jpg in Resources */,
+				047894221D3A9E1C00376101 /* 堂煎安格斯牛仔骨.jpg in Resources */,
+				0478945C1D3A9E1C00376101 /* 鱼汤米线.jpg in Resources */,
+				047893C81D3A9E1C00376101 /* qcbtn.png in Resources */,
+				047893E91D3A9E1C00376101 /* tap.png in Resources */,
+				0478945D1D3A9E1C00376101 /* 鱼肚肘子浸娃娃菜.jpg in Resources */,
+				0478940E1D3A9E1C00376101 /* 三文鱼腩.jpg in Resources */,
+				047893F91D3A9E1C00376101 /* 金山广肚公.jpg in Resources */,
+				047894721D3A9E1C00376101 /* 武夷山大红袍.jpg in Resources */,
+				047893911D3A9E1C00376101 /* bgp3.png in Resources */,
+				047893E31D3A9E1C00376101 /* 4.png in Resources */,
+				047893A21D3A9E1C00376101 /* 5.jpg in Resources */,
+				0478942A1D3A9E1C00376101 /* 挪威三文鱼.png in Resources */,
+				0478945E1D3A9E1C00376101 /* 鲍鱼粒泡饭.jpg in Resources */,
+				047893DD1D3A9E1C00376101 /* res.jpg in Resources */,
+				0478947D1D3A9E1C00376101 /* 野生溪黄草.jpg in Resources */,
+				0478947A1D3A9E1C00376101 /* 西湖龙井.jpg in Resources */,
+				047893D61D3A9E1C00376101 /* 5_n.png in Resources */,
+				047894511D3A9E1C00376101 /* 金奖鳗鱼酥.jpg in Resources */,
+				047894431D3A9E1C00376101 /* 翠堂菜拼金钱袋.jpg in Resources */,
+				0478944D1D3A9E1C00376101 /* 西班牙火腿拼俄罗斯墨鱼子.jpg in Resources */,
+				047894491D3A9E1C00376101 /* 蒜香雪花牛仔粒.jpg in Resources */,
+				047893B61D3A9E1C00376101 /* 5icon.png in Resources */,
+				047894111D3A9E1C00376101 /* 像生枣泥糕.jpg in Resources */,
+				047893B41D3A9E1C00376101 /* 3icon.png in Resources */,
+				047893E01D3A9E1C00376101 /* 1.png in Resources */,
+				047893AF1D3A9E1C00376101 /* line32.png in Resources */,
+				047893A91D3A9E1C00376101 /* exit.png in Resources */,
+				047894151D3A9E1C00376101 /* 北极贝.jpg in Resources */,
+				047893C51D3A9E1C00376101 /* 5_s.png in Resources */,
+				04ED42F71D3D960F00A93F86 /* menuTableViewCell.xib in Resources */,
+				047894601D3A9E1C00376101 /* 鸿运全体金猪.jpg in Resources */,
+				047894451D3A9E1C00376101 /* 荷塘映月.jpg in Resources */,
+				0478942C1D3A9E1C00376101 /* 杏汁燕窝奶挞.jpg in Resources */,
+				0478940A1D3A9E1C00376101 /* 鲍汁扣辽参.png in Resources */,
+				047894441D3A9E1C00376101 /* 肉汁炖虫草.jpg in Resources */,
+				047894341D3A9E1C00376101 /* 深海金枪鱼.jpg in Resources */,
+				0478940D1D3A9E1C00376101 /* 七彩南瓜果.jpg in Resources */,
+				042995FD1D4166AA00854C84 /* ZuoWeiVC.xib in Resources */,
+				047893BF1D3A9E1C00376101 /* 6_s.png in Resources */,
+				047893FC1D3A9E1C00376101 /* 两葱爆海参.png in Resources */,
+				047894631D3A9E1C00376101 /* 黑椒T骨扒.jpg in Resources */,
+				0478940F1D3A9E1C00376101 /* 上汤龙虾.jpg in Resources */,
+				047893CA1D3A9E1C00376101 /* reducebtn.png in Resources */,
+				047893F11D3A9E1C00376101 /* 印尼官燕.jpg in Resources */,
+				047894191D3A9E1C00376101 /* 卤水鹅掌.jpg in Resources */,
+				047893D01D3A9E1C00376101 /* 4_n.png in Resources */,
+				0478947B1D3A9E1C00376101 /* 远年普洱.jpg in Resources */,
+				047894041D3A9E1C00376101 /* 极品吉品鲍(20头).png in Resources */,
+				047893D11D3A9E1C00376101 /* xqbtn.png in Resources */,
+				047894781D3A9E1C00376101 /* 粒粒香铁观音.jpg in Resources */,
+				047893A51D3A9E1C00376101 /* chinese.png in Resources */,
+				047893E71D3A9E1C00376101 /* 8.png in Resources */,
+				047893BC1D3A9E1C00376101 /* cude.png in Resources */,
+				047893A61D3A9E1C00376101 /* cwxz.png in Resources */,
+				047893F01D3A9E1C00376101 /* 南非网鲍(8头).jpg in Resources */,
+				044F94481D3AC50D00E25F3A /* TableViewCell.xib in Resources */,
+				047893931D3A9E1C00376101 /* bgp33.png in Resources */,
+				047893991D3A9E1C00376101 /* bgp8.png in Resources */,
+				0478947F1D3A9E1C00376101 /* 阿里山乌龙.jpg in Resources */,
+				0478947E1D3A9E1C00376101 /* 金奖铁观音.jpg in Resources */,
+				047893AD1D3A9E1C00376101 /* hrbg.png in Resources */,
+				047893F41D3A9E1C00376101 /* 极品吉品鲍(20头).jpg in Resources */,
+				047894791D3A9E1C00376101 /* 罗汉果凉茶.jpg in Resources */,
+				0478938C1D3A9E1C00376101 /* database.sqlite in Resources */,
+				047893CE1D3A9E1C00376101 /* sd3.png in Resources */,
+				04C3699D1D3DAAF7008C2CF5 /* LICENSE.txt in Resources */,
+				0478938F1D3A9E1C00376101 /* bg3.png in Resources */,
+				047893E61D3A9E1C00376101 /* 7.png in Resources */,
+				047893C11D3A9E1C00376101 /* 3_s.png in Resources */,
+				0478940B1D3A9E1C00376101 /* 鸭汁葱烧辽参.png in Resources */,
+				047894121D3A9E1C00376101 /* 像生核桃果.jpg in Resources */,
+				047893D91D3A9E1C00376101 /* p2.jpg in Resources */,
+				0478943F1D3A9E1C00376101 /* 秘制海豹蛇.jpg in Resources */,
+				047894731D3A9E1C00376101 /* 武夷山金骏眉.jpg in Resources */,
+				047893EF1D3A9E1C00376101 /* 南非网鲍(14头).jpg in Resources */,
+				047893D51D3A9E1C00376101 /* 0_n.png in Resources */,
+				047893C21D3A9E1C00376101 /* 4_s.png in Resources */,
+				047894261D3A9E1C00376101 /* 头抽豉油鸡.jpg in Resources */,
+				047893F51D3A9E1C00376101 /* 极品吉品鲍(24头).jpg in Resources */,
+				0478941E1D3A9E1C00376101 /* 原只番茄丄素珍.jpg in Resources */,
+				047893B81D3A9E1C00376101 /* 7icon.png in Resources */,
+				047893DA1D3A9E1C00376101 /* p61.png in Resources */,
+				047893D41D3A9E1C00376101 /* yticon.png in Resources */,
+				047894071D3A9E1C00376101 /* 粗针翅.png in Resources */,
+				047894351D3A9E1C00376101 /* 潮式煲大连鲍.jpg in Resources */,
+				047894361D3A9E1C00376101 /* 潮式煲大连鲍1.jpg in Resources */,
+				0478939E1D3A9E1C00376101 /* 1.jpg in Resources */,
+				047893BE1D3A9E1C00376101 /* 1_s.png in Resources */,
+				047894591D3A9E1C00376101 /* 香煎黄花鱼.jpg in Resources */,
+				047894811D3A9E1C00376101 /* 陈年桔普茶.jpg in Resources */,
+				047892691D3A9DCB00376101 /* Images.xcassets in Resources */,
+				047894661D3A9E1C00376101 /* 龙虾刺身.jpg in Resources */,
+				047894251D3A9E1C00376101 /* 头抽虎皮尖椒.jpg in Resources */,
+				047894001D3A9E1C00376101 /* 南非网鲍(8头).png in Resources */,
+				047894231D3A9E1C00376101 /* 多宝鱼两食.jpg in Resources */,
+				0478946D1D3A9E1C00376101 /* 参赛铁观音.jpg in Resources */,
+				047893EA1D3A9E1C00376101 /* splitLine.png in Resources */,
+				047893A11D3A9E1C00376101 /* 4.jpg in Resources */,
+				0478939C1D3A9E1C00376101 /* blue.png in Resources */,
+				0478939B1D3A9E1C00376101 /* bgpp2.jpg in Resources */,
+				047894321D3A9E1C00376101 /* 海皇三鲜煎面.jpg in Resources */,
+				047894651D3A9E1C00376101 /* 黑金山雀炖海参.jpg in Resources */,
+				047894541D3A9E1C00376101 /* 铁板鹅肝粒炒饭.jpg in Resources */,
+				0478946E1D3A9E1C00376101 /* 家藏普洱.jpg in Resources */,
+				047893AB1D3A9E1C00376101 /* hchinese.png in Resources */,
+				0478941F1D3A9E1C00376101 /* 叉烧.jpg in Resources */,
+				047894841D3A9E1C00376101 /* 黄山野生菊花.jpg in Resources */,
+				047893A01D3A9E1C00376101 /* 3.jpg in Resources */,
+				047893941D3A9E1C00376101 /* bgp4.png in Resources */,
+				047894291D3A9E1C00376101 /* 家乡葱油饼.jpg in Resources */,
+				047893981D3A9E1C00376101 /* bgp6.png in Resources */,
+				047894561D3A9E1C00376101 /* 韭菜花炒福果曹虾.jpg in Resources */,
+				0478925B1D3A9DCB00376101 /* InfoPlist.strings in Resources */,
+				0478940C1D3A9E1C00376101 /* 4GS2_2ZS_dfx_10.jpg in Resources */,
+				047894011D3A9E1C00376101 /* 印尼官燕.png in Resources */,
+				047893951D3A9E1C00376101 /* bgp41.png in Resources */,
+				0478944C1D3A9E1C00376101 /* 螺片捞手撕鸡1.jpg in Resources */,
+				047893D21D3A9E1C00376101 /* ysdicon.png in Resources */,
+				047893961D3A9E1C00376101 /* bgp5.png in Resources */,
+				0478943E1D3A9E1C00376101 /* 秘制卤水鹅头.jpg in Resources */,
+				047893AE1D3A9E1C00376101 /* line31.png in Resources */,
+				047893E51D3A9E1C00376101 /* 6.png in Resources */,
+				047894031D3A9E1C00376101 /* 极品吉品鲍(18头).png in Resources */,
+				047893F81D3A9E1C00376101 /* 金勾翅.jpg in Resources */,
+				047893FD1D3A9E1C00376101 /* 五谷煮海参.png in Resources */,
+				047894881D3A9E1C00376101 /* 花雕.jpg in Resources */,
+				0478945A1D3A9E1C00376101 /* 香葱煎焗菜包.jpg in Resources */,
+				047894021D3A9E1C00376101 /* 堂做印尼燕窝粥.png in Resources */,
+				047894711D3A9E1C00376101 /* 极品铁观音.jpg in Resources */,
+				0478941D1D3A9E1C00376101 /* 原之木瓜炖雪蛤.jpg in Resources */,
+				047893EB1D3A9E1C00376101 /* tabbg.png in Resources */,
+				047894581D3A9E1C00376101 /* 香煎大虾.jpg in Resources */,
+				0478941B1D3A9E1C00376101 /* 卤水鹅肝.jpg in Resources */,
+				047894521D3A9E1C00376101 /* 金虫草花藕条炒海参.jpg in Resources */,
+				047894681D3A9E1C00376101 /* 人参乌龙茶.jpg in Resources */,
+				047893BD1D3A9E1C00376101 /* dcbtn.png in Resources */,
+				047893B01D3A9E1C00376101 /* line33.png in Resources */,
+				047894411D3A9E1C00376101 /* 美极腊鸭舌.jpg in Resources */,
+				047893E21D3A9E1C00376101 /* 3.png in Resources */,
+				047894861D3A9E1C00376101 /* 剑南春.jpg in Resources */,
+				047894421D3A9E1C00376101 /* 翠叠百灵鳄.jpg in Resources */,
+				047893E81D3A9E1C00376101 /* 9.png in Resources */,
+				047894771D3A9E1C00376101 /* 珍藏普洱.jpg in Resources */,
+				047894761D3A9E1C00376101 /* 狮峰龙井.jpg in Resources */,
+				0478947C1D3A9E1C00376101 /* 野生昆仑雪菊.jpg in Resources */,
+				0478942F1D3A9E1C00376101 /* 桂花炒鱼肚.jpg in Resources */,
+				047894801D3A9E1C00376101 /* 陈年普洱.jpg in Resources */,
+				047894481D3A9E1C00376101 /* 葵花吐艳.jpg in Resources */,
+				047893FE1D3A9E1C00376101 /* 南非网鲍(12头).png in Resources */,
+				047893FB1D3A9E1C00376101 /* 鸭汁葱烧辽参.jpg in Resources */,
+				047894211D3A9E1C00376101 /* 城南盐烧发财手.jpg in Resources */,
+				047894751D3A9E1C00376101 /* 清香铁观音.jpg in Resources */,
+				0478943C1D3A9E1C00376101 /* 瓦礃沙姜浸东星.jpg in Resources */,
+				047894671D3A9E1C00376101 /* 不知年普洱.jpg in Resources */,
+				047894701D3A9E1C00376101 /* 情人玫瑰花.jpg in Resources */,
+				047894131D3A9E1C00376101 /* 养生杞子银杏炒百合.jpg in Resources */,
+				047893C71D3A9E1C00376101 /* 2_n.png in Resources */,
+				0478945F1D3A9E1C00376101 /* 鲜茄蛋汤手擀面.jpg in Resources */,
+				04549C121D417E7C0047872C /* LiShiVC.xib in Resources */,
+				047893F21D3A9E1C00376101 /* 堂做印尼燕窝粥.jpg in Resources */,
+				0478943D1D3A9E1C00376101 /* 白切鸡海南文昌鸡.jpg in Resources */,
+				0478946F1D3A9E1C00376101 /* 御品铁观音.jpg in Resources */,
+				0478944F1D3A9E1C00376101 /* 野生水鱼焖鲍鱼鸡.jpg in Resources */,
+				0478943A1D3A9E1C00376101 /* 珍菌炒石燕.jpg in Resources */,
+				04ED42E81D3D819A00A93F86 /* secendViewController.xib in Resources */,
+				047894401D3A9E1C00376101 /* 竹上素仙.jpg in Resources */,
+				047893B51D3A9E1C00376101 /* 4icon.png in Resources */,
+				047893D81D3A9E1C00376101 /* p1.jpg in Resources */,
+				047892641D3A9DCB00376101 /* Main.storyboard in Resources */,
+				047894331D3A9E1C00376101 /* 海皇极品炒粉丝.jpg in Resources */,
+				0478944A1D3A9E1C00376101 /* 虾头酱粉丝煲.jpg in Resources */,
+				047894821D3A9E1C00376101 /* 陈年生饼.jpg in Resources */,
+				04ED40671D3D348A00A93F86 /* FirstViewController.xib in Resources */,
+				044F943C1D3AA95400E25F3A /* orderViewController.xib in Resources */,
+				047894611D3A9E1C00376101 /* 黄豆酱番茄焗银鳕鱼.jpg in Resources */,
+				0478939F1D3A9E1C00376101 /* 2.jpg in Resources */,
+				047894741D3A9E1C00376101 /* 毛尖花茶.jpg in Resources */,
+				047894311D3A9E1C00376101 /* 海南文昌鸡.jpg in Resources */,
+				047893D31D3A9E1C00376101 /* yszicon.png in Resources */,
+				047894301D3A9E1C00376101 /* 法式吉斯拉包.jpg in Resources */,
+				047894461D3A9E1C00376101 /* 菜远炒牛奶.jpg in Resources */,
+				047894101D3A9E1C00376101 /* 佛跳墙.jpg in Resources */,
+				047894641D3A9E1C00376101 /* 黑醋法国鹅肝.jpg in Resources */,
+				047893DB1D3A9E1C00376101 /* pg80.jpg in Resources */,
+				047894171D3A9E1C00376101 /* 卤水拼盘.jpg in Resources */,
+				0478938E1D3A9E1C00376101 /* 02.png in Resources */,
+				047893CF1D3A9E1C00376101 /* sdbtn.png in Resources */,
+				0478944E1D3A9E1C00376101 /* 象拔蚌刺身.jpg in Resources */,
+				047893ED1D3A9E1C00376101 /* 五谷煮海参.jpg in Resources */,
+				042995F71D4152DB00854C84 /* SongDanVC.xib in Resources */,
+				047893FA1D3A9E1C00376101 /* 鲍汁扣辽参.jpg in Resources */,
+				047893DF1D3A9E1C00376101 /* sdbtn2.png in Resources */,
+				047893BA1D3A9E1C00376101 /* bzbtn.png in Resources */,
+				047893C41D3A9E1C00376101 /* hzong.png in Resources */,
+				04F9A2561D406D1000239457 /* MyOrderTableViewCell.xib in Resources */,
+				047893A71D3A9E1C00376101 /* dlbg.png in Resources */,
+				047894621D3A9E1C00376101 /* 黑松露七骨扒.jpg in Resources */,
+				047894831D3A9E1C00376101 /* 陈旧普洱.jpg in Resources */,
+				047893CB1D3A9E1C00376101 /* return.png in Resources */,
+				0478945B1D3A9E1C00376101 /* 马友蒸开刀东星.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478926C1D3A9DCB00376101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478927A1D3A9DCB00376101 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047892491D3A9DCB00376101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F94471D3AC50D00E25F3A /* TableViewCell.m in Sources */,
+				042995F61D4152DB00854C84 /* SongDanVC.m in Sources */,
+				04F9A2451D4031E900239457 /* diancaiDatebase.m in Sources */,
+				04549C321D41DAF60047872C /* ChaXunVC.m in Sources */,
+				047892671D3A9DCB00376101 /* ViewController.m in Sources */,
+				04549C231D41A4DA0047872C /* LSVCCell.m in Sources */,
+				04ED42F61D3D960F00A93F86 /* menuTableViewCell.m in Sources */,
+				04ED42E71D3D819A00A93F86 /* secendViewController.m in Sources */,
+				04549C111D417E7C0047872C /* LiShiVC.m in Sources */,
+				04549C1E1D41816C0047872C /* recordTable.m in Sources */,
+				04549C151D4181210047872C /* recordTableDatebase.m in Sources */,
+				04F9A2481D4065E300239457 /* MyDianCai.m in Sources */,
+				04F9A24C1D40697E00239457 /* MyOrderViewController.m in Sources */,
+				04ED40661D3D348A00A93F86 /* FirstViewController.m in Sources */,
+				047892611D3A9DCB00376101 /* AppDelegate.m in Sources */,
+				04C3699C1D3DAAF7008C2CF5 /* FMResultSet.m in Sources */,
+				04549C181D4181420047872C /* room_recordTableDatebase.m in Sources */,
+				04F9A2401D40242400239457 /* XiangQingVC.m in Sources */,
+				04F9A2511D406B5000239457 /* MyOrderDatabase.m in Sources */,
+				044F94351D3AA5F800E25F3A /* LanguageViewController.m in Sources */,
+				042995FC1D4166AA00854C84 /* ZuoWeiVC.m in Sources */,
+				044F943B1D3AA95400E25F3A /* orderViewController.m in Sources */,
+				04549C1B1D4181570047872C /* room_recordTable.m in Sources */,
+				04EF67B41D3EF5D1004C5E3C /* ImageScrollView.m in Sources */,
+				04EF67B11D3EE2C1004C5E3C /* Group.m in Sources */,
+				04F9A2551D406D1000239457 /* MyOrderTableViewCell.m in Sources */,
+				0478925D1D3A9DCB00376101 /* main.m in Sources */,
+				04C3699A1D3DAAF7008C2CF5 /* FMDatabase.m in Sources */,
+				04C369A51D3DAF50008C2CF5 /* MenuDatabase.m in Sources */,
+				04C3699B1D3DAAF7008C2CF5 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0478926A1D3A9DCB00376101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0478927C1D3A9DCB00376101 /* OrderDishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047892741D3A9DCB00376101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0478924C1D3A9DCB00376101 /* OrderDish */;
+			targetProxy = 047892731D3A9DCB00376101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047892591D3A9DCB00376101 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0478925A1D3A9DCB00376101 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		047892621D3A9DCB00376101 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047892631D3A9DCB00376101 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047892781D3A9DCB00376101 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047892791D3A9DCB00376101 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0478927D1D3A9DCB00376101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0478927E1D3A9DCB00376101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047892801D3A9DCB00376101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderDish/OrderDish-Prefix.pch";
+				INFOPLIST_FILE = "OrderDish/OrderDish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		047892811D3A9DCB00376101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderDish/OrderDish-Prefix.pch";
+				INFOPLIST_FILE = "OrderDish/OrderDish-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		047892831D3A9DCB00376101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrderDish.app/OrderDish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderDish/OrderDish-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrderDishTests/OrderDishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		047892841D3A9DCB00376101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OrderDish.app/OrderDish";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderDish/OrderDish-Prefix.pch";
+				INFOPLIST_FILE = "OrderDishTests/OrderDishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047892481D3A9DCB00376101 /* Build configuration list for PBXProject "OrderDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478927D1D3A9DCB00376101 /* Debug */,
+				0478927E1D3A9DCB00376101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478927F1D3A9DCB00376101 /* Build configuration list for PBXNativeTarget "OrderDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047892801D3A9DCB00376101 /* Debug */,
+				047892811D3A9DCB00376101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047892821D3A9DCB00376101 /* Build configuration list for PBXNativeTarget "OrderDishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047892831D3A9DCB00376101 /* Debug */,
+				047892841D3A9DCB00376101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047892451D3A9DCB00376101 /* Project object */;
+}
