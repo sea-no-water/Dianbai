@@ -42,6 +42,8 @@ GIF图片
 点菜页
 ----------
 
+分为主厨推荐页和其他选菜页。
+
 ![点菜页1](DC_Image/DC_diancaiye1.png)
 ![点菜页2](DC_Image/DC_diancaiye2.png)
 
@@ -53,12 +55,15 @@ GIF图片
 我的点单页
 ----------
 
+在这个页面上，显示了客人所点的菜名，单价，种类，份数，最下面还有计算好的总价，旁边可以添加一些备注。左滑可以显示删除按钮，对点单上的菜进行删除。
+
 ![我的点单页](DC_Image/DC_wodediandan.png)
 
 送单页
 ----------
 
 ![送单页](DC_Image/DC_songdan.png)
+
 ![送单页](DC_Image/DC_sdSuccess)
 
 历史菜单页
@@ -68,6 +73,8 @@ GIF图片
 
 数据库页
 ----------
+
+数据库使用的是xcode自带的sqliteManager进行数据的操作。一共创建了5个表，分别对菜单，图片，点单，历史菜单等数据进行交互。
 
 ![数据库页1](DC_Image/DC_sqlite1.png)
 ![数据库页2](DC_Image/DC_sqlite2.png)
