@@ -27,12 +27,12 @@
 GIF图片
 ----------
 
-![GIF图片](DianCai.gif)
+![GIF图片](DC_Image/DC_canwei.png)
 
 首页
 ----------
 
-![首页](DC_souuye.png)
+![首页](DC_Image/DC_souuye.png)
 
 主页
 ----------
