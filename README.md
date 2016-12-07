@@ -37,40 +37,40 @@ GIF图片
 主页
 ----------
 
-![主页](DC_zhuye.png)
+![主页](DC_Image/DC_zhuye.png)
 
 点菜页
 ----------
 
-![点菜页1](DC_diancaiye1.png)
-![点菜页2](DC_diancaiye2.png)
+![点菜页1](DC_Image/DC_diancaiye1.png)
+![点菜页2](DC_Image/DC_diancaiye2.png)
 
 详细页
 ----------
 
-![详细页](DC_xiangxi.png)
+![详细页](DC_Image/DC_xiangxi.png)
 
 我的点单页
 ----------
 
-![我的点单页](DC_wodediandan.png)
+![我的点单页](DC_Image/DC_wodediandan.png)
 
 送单页
 ----------
 
-![送单页](DC_songdan.png)
-![送单页](DC_sdSuccess)
+![送单页](DC_Image/DC_songdan.png)
+![送单页](DC_Image/DC_sdSuccess)
 
 历史菜单页
 ----------
 
-![历史菜单页](DC_lishicaidan.png)
+![历史菜单页](DC_Image/DC_lishicaidan.png)
 
 数据库页
 ----------
 
-![数据库页1](DC_sqlite1.png)
-![数据库页2](DC_sqlite2.png)
+![数据库页1](DC_Image/DC_sqlite1.png)
+![数据库页2](DC_Image/DC_sqlite2.png)
 
 
 
