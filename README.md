@@ -64,7 +64,7 @@ GIF图片
 
 ![送单页](DC_Image/DC_songdan.png)
 
-![送单页](DC_Image/DC_sdSuccess)
+![送单页](DC_Image/DC_sdSuccess.png)
 
 历史菜单页
 ----------
