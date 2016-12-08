@@ -19,6 +19,7 @@
 * [详细页](#详细页)
 * [我的点单页](#我的点单页)
 * [送单页](#送单页)
+* [座位选择页](#座位选择页)
 * [历史菜单页](#历史菜单页)
 * [数据库页](#数据库页)
 
@@ -27,7 +28,7 @@
 GIF图片
 ----------
 
-![GIF图片](DC_Image/DC_canwei.png)
+![GIF图片](DC_Image/DianCai.gif)
 
 首页
 ----------
@@ -64,7 +65,12 @@ GIF图片
 
 ![送单页](DC_Image/DC_songdan.png)
 
-![送单页](DC_Image/DC_sdSuccess.png)
+![送单成功](DC_Image/DC_sdSuccess.png)
+
+座位选择页
+----------
+
+![座位选择页](DC_canwei.png)
 
 历史菜单页
 ----------
